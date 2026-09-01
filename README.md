@@ -50,8 +50,7 @@ De status hieronder is de portfolio-indeling van september 2026. De technische w
 ### Actief ondersteunend
 
 - [Checklist](https://github.com/Yolol100/Checklist)
-- [elementorjson](https://github.com/Yolol100/elementorjson)
-- Twee private Webactueel-runtimes zijn eveneens als actief ondersteunend geclassificeerd; namen en interne rollen worden niet op het publieke profiel gedeeld.
+- Drie private Webactueel-runtimes zijn eveneens als actief ondersteunend geclassificeerd; namen en interne rollen worden niet op het publieke profiel gedeeld.
 - [Content-Sync-Manager](https://github.com/Yolol100/Content-Sync-Manager)
 - [MDTPullMarker](https://github.com/Yolol100/MDTPullMarker)
 - [transcriberen](https://github.com/Yolol100/transcriberen)
