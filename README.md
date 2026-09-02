@@ -25,6 +25,16 @@ These are the best starting points for reviewing my work.
 | [Designchecker](https://github.com/Yolol100/Designchecker) | Read-only browser, accessibility, performance, markup and visual-regression evidence for website QA. | TypeScript, Playwright, axe-core, Lighthouse, Pixelmatch, Sharp |
 | [Orchestrator](https://github.com/Yolol100/Orchestrator) | A least-privilege GitHub transport/orchestration layer for bounded automation workflows and inspectable artifacts. | Python, GitHub Actions, GitHub App tokens, contract tests |
 
+## Two-minute technical review
+
+For a fast technical assessment, each flagship exposes implementation, tests and CI directly:
+
+- **Elementorconnector:** [implementation](https://github.com/Yolol100/Elementorconnector/tree/main/includes) · [tests](https://github.com/Yolol100/Elementorconnector/tree/main/tests) · [CI](https://github.com/Yolol100/Elementorconnector/tree/main/.github/workflows)
+- **Content-Sync-Manager:** [implementation](https://github.com/Yolol100/Content-Sync-Manager/tree/main/includes) · [tests](https://github.com/Yolol100/Content-Sync-Manager/tree/main/tests) · [CI](https://github.com/Yolol100/Content-Sync-Manager/tree/main/.github/workflows)
+- **seochecker:** [implementation](https://github.com/Yolol100/seochecker/tree/main/scripts) · [tests](https://github.com/Yolol100/seochecker/tree/main/tests) · [CI](https://github.com/Yolol100/seochecker/tree/main/.github/workflows)
+- **Designchecker:** [implementation](https://github.com/Yolol100/Designchecker/tree/main/src) · [tests](https://github.com/Yolol100/Designchecker/tree/main/tests) · [CI](https://github.com/Yolol100/Designchecker/tree/main/.github/workflows)
+- **Orchestrator:** [implementation](https://github.com/Yolol100/Orchestrator/tree/main/scripts) · [tests](https://github.com/Yolol100/Orchestrator/tree/main/tests) · [CI](https://github.com/Yolol100/Orchestrator/tree/main/.github/workflows)
+
 ## What I focus on
 
 ### WordPress & WooCommerce
