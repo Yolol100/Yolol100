@@ -1,97 +1,56 @@
-# Yolol100 — WordPress, automatisering en productontwikkeling
+# WordPress / WooCommerce / Elementor Developer & Web Automation Builder
 
-Ik bouw praktische software voor contentbeheer, websitekwaliteit, SEO-evidence en game tooling. Mijn repositories combineren productontwikkeling met een sterke nadruk op begrensde automatisering, reproduceerbare tests en veilige integraties.
+I build production-minded WordPress plugins and automation/QA tooling, with a focus on safe content workflows, testable releases and reproducible evidence.
 
-## Waar ik aan werk
+**Open to:** WordPress, WooCommerce, Elementor, PHP and web automation roles.  
+**Core stack:** WordPress · WooCommerce · Elementor · ACF · Yoast SEO · PHP · Python · TypeScript/JavaScript · GitHub Actions · Playwright · Lighthouse
 
-- **WordPress en WooCommerce:** plugins, content-synchronisatie, ACF, Elementor en veilige releasepakketten.
-- **Automatisering:** Python-, JavaScript- en GitHub Actions-workflows met expliciete contracten en controleerbare artifacts.
-- **Websitekwaliteit:** technische SEO, accessibility-, performance-, markup- en visual-regressie-evidence.
-- **Productontwikkeling:** portable Windows-tools en WoW-addons met reproduceerbare releases.
+## Recruiter snapshot
 
-## Uitgelichte projecten
+- Build and maintain WordPress and WooCommerce plugins, content workflows and Elementor/ACF integrations.
+- Automate testing, packaging and releases with GitHub Actions and reproducible build checks.
+- Work across technical SEO, accessibility, performance, browser automation and visual regression testing.
+- Prefer least-privilege integrations, explicit validation, staging-first changes and rollback paths.
+- Keep public repositories free of credentials, customer data and run-specific private information.
 
-| Project | Wat het oplost | Technologie en bewijs |
+## Selected projects
+
+These are the best starting points for reviewing my work.
+
+| Project | What it demonstrates | Stack / evidence |
 | --- | --- | --- |
-| [Elementorconnector](https://github.com/Yolol100/Elementorconnector) | Beheerst WordPress-, ACF-, Yoast- en bestaande Elementor-content via een private GitHub-reviewflow met conflictcontrole en rollback. | PHP, WordPress APIs, Composer, wp-env en uitgebreide CI-matrix |
-| [KeystoneLens](https://github.com/Yolol100/KeystoneLens) | Combineert een WoW-addon met een portable Windows Companion voor lokale recruitmentanalyse. | Python, Lua, Windows-builds, CodeQL en deterministische packaging |
-| [Orchestrator](https://github.com/Yolol100/Orchestrator) | Transporteert goedgekeurde Webactueel-plannen naar begrensde specialistrepositories. | Python, GitHub App-tokens, Actions en contracttests |
-| [seochecker](https://github.com/Yolol100/seochecker) | Maakt reproduceerbare technische SEO-audits met optionele Search Console- en Ahrefs-context. | Python, SiteOne, Lighthouse, Nu HTML Checker en run-artifacts |
-| [Designchecker](https://github.com/Yolol100/Designchecker) | Levert read-only browser-, accessibility-, performance- en visual-regressie-evidence. | TypeScript, Playwright, axe-core, Lighthouse en Pixelmatch |
-| [RaidLeadAssist](https://github.com/Yolol100/RaidLeadAssist) | Biedt fail-closed raidplannen, assignments en handmatige callouts voor WoW. | Lua, WoW Retail APIs en geautomatiseerde validatie |
+| [Elementorconnector](https://github.com/Yolol100/Elementorconnector) | A controlled WordPress content bridge for core content, ACF, Yoast and existing Elementor documents, with conflict detection and verified rollback. | PHP, WordPress APIs, Composer, wp-env, GitHub Actions, integration matrices |
+| [Content-Sync-Manager](https://github.com/Yolol100/Content-Sync-Manager) | WordPress content and media export/import tooling with ACF/WooCommerce support, preview-before-write checks and guarded media updates. | PHP, WordPress, ACF, WooCommerce, CI, package validation |
+| [seochecker](https://github.com/Yolol100/seochecker) | Reproducible technical SEO audits that separate live technical evidence from optional Search Console and Ahrefs context. | Python, GitHub Actions, SiteOne, Lighthouse CI, Nu HTML Checker |
+| [Designchecker](https://github.com/Yolol100/Designchecker) | Read-only browser, accessibility, performance, markup and visual-regression evidence for website QA. | TypeScript, Playwright, axe-core, Lighthouse, Pixelmatch, Sharp |
+| [Orchestrator](https://github.com/Yolol100/Orchestrator) | A least-privilege GitHub transport/orchestration layer for bounded automation workflows and inspectable artifacts. | Python, GitHub Actions, GitHub App tokens, contract tests |
 
-## Webactueel
+## What I focus on
 
-De Webactueel-repositories zijn opgezet als specialistische capabilities met duidelijke verantwoordelijkheden:
+### WordPress & WooCommerce
 
-```text
-vraag → workflow/controller → vakspecialist → begrensde uitvoering
-                                               ↓
-                                      controleerbaar artifact
-                                               ↓
-                                  readback en vakacceptatie
-```
+Custom plugins, content synchronization, ACF, Elementor, Yoast SEO, media workflows, safe imports/exports and release packaging.
 
-Een gestarte of groene workflow is niet automatisch inhoudelijk geaccepteerd. Klant- en run-specifieke data hoort niet permanent op de publieke default branch.
+### Automation & delivery
 
-## Repositoryportfolio
+Python/JavaScript automation, GitHub Actions, CI gates, reproducible builds, artifact-based workflows and controlled release processes.
 
-De status hieronder is de portfolio-indeling van september 2026. De technische waarheid en actuele release-informatie blijven per repository leidend.
+### Website quality
 
-### Flagship
+Technical SEO, accessibility, browser automation, performance, HTML validation and visual regression testing.
 
-- [Elementorconnector](https://github.com/Yolol100/Elementorconnector)
-- [KeystoneLens](https://github.com/Yolol100/KeystoneLens)
-- [Orchestrator](https://github.com/Yolol100/Orchestrator)
-- [seochecker](https://github.com/Yolol100/seochecker)
-- [Designchecker](https://github.com/Yolol100/Designchecker)
-- [RaidLeadAssist](https://github.com/Yolol100/RaidLeadAssist)
+### Engineering beyond WordPress
 
-### Actief ondersteunend
+I also build portable Windows tooling and World of Warcraft addons. See [KeystoneLens](https://github.com/Yolol100/KeystoneLens) and [RaidLeadAssist](https://github.com/Yolol100/RaidLeadAssist) for Python/Lua and release-engineering examples.
 
-- [Checklist](https://github.com/Yolol100/Checklist)
-- Drie private Webactueel-runtimes zijn eveneens als actief ondersteunend geclassificeerd; namen en interne rollen worden niet op het publieke profiel gedeeld.
-- [Content-Sync-Manager](https://github.com/Yolol100/Content-Sync-Manager)
-- [MDTPullMarker](https://github.com/Yolol100/MDTPullMarker)
-- [transcriberen](https://github.com/Yolol100/transcriberen)
-- [vacature-engine](https://github.com/Yolol100/vacature-engine)
+## How I work
 
-### Maintenance
+- Changes are developed through branches and pull requests where appropriate.
+- Tests and reproducible evidence are part of release work, not an afterthought.
+- Automation receives only the permissions it needs.
+- Risky content changes use validation, staging, conflict checks and rollback where applicable.
+- Public repositories do not contain credentials, customer data or private runtime state.
 
-- Eén private WordPress-repository is als maintenance geclassificeerd; de naam wordt niet publiek gedeeld.
-- [scan-duplicate-images](https://github.com/Yolol100/scan-duplicate-images)
-- [Woocommerce-egaline-calculator](https://github.com/Yolol100/Woocommerce-egaline-calculator)
-- [Export-acf-to-csv](https://github.com/Yolol100/Export-acf-to-csv)
-- [Dienstenoverzicht](https://github.com/Yolol100/Dienstenoverzicht)
-- [Link](https://github.com/Yolol100/Link)
-- [Pontifex](https://github.com/Yolol100/Pontifex)
-- [cursussen-plugin](https://github.com/Yolol100/cursussen-plugin)
-- [Patchrunner](https://github.com/Yolol100/Patchrunner)
-- [Ultracache-pro](https://github.com/Yolol100/Ultracache-pro)
-- [ACF-Text-Manager](https://github.com/Yolol100/ACF-Text-Manager)
-- [translatewordpress](https://github.com/Yolol100/translatewordpress)
-- [shutterstock-seo-](https://github.com/Yolol100/shutterstock-seo-)
-- [soocool-for-woocommerce](https://github.com/Yolol100/soocool-for-woocommerce)
-- [acf-image-auto-filler](https://github.com/Yolol100/acf-image-auto-filler)
+## For hiring managers
 
-### Experiment
-
-- [programmeren](https://github.com/Yolol100/programmeren)
-- [doctorcura-core](https://github.com/Yolol100/doctorcura-core)
-- [doctorcura-ui](https://github.com/Yolol100/doctorcura-ui)
-
-### Archiefkandidaat
-
-- Eén private, lege repository is intern als archiefkandidaat gemarkeerd; de naam wordt niet publiek gedeeld en de repository is niet verwijderd of gearchiveerd.
-
-## Werkwijze
-
-- Wijzigingen verlopen via branches en pull requests.
-- Tests en reproduceerbaar bewijs horen bij releases.
-- Automatisering krijgt alleen de minimaal noodzakelijke rechten.
-- Publieke repositories bevatten geen credentials, klantdata of run-specifieke waarheid.
-- Een ontbrekende open-sourcelicentie betekent dat hergebruik niet automatisch is toegestaan.
-
-## Samenwerken
-
-Gebruik het issue-overzicht van het relevante project voor reproduceerbare bugs of verbetervoorstellen. Deel nooit tokens, privélogs, accountgegevens of klantinhoud in een publiek issue.
+If you only have a few minutes, start with **Elementorconnector**, **Content-Sync-Manager**, **seochecker**, **Designchecker** and **Orchestrator**. Together they show WordPress/PHP development, automation, CI/release engineering, SEO/QA tooling and security-conscious integration work.
