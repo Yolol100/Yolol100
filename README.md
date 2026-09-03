@@ -1,33 +1,36 @@
-# WordPress / WooCommerce / Elementor Developer & Web Automation Builder
+# Andrew Baeten — Senior WordPress Developer & Web Designer
 
-I build production-minded WordPress plugins and automation/QA tooling, with a focus on safe content workflows, testable releases and reproducible evidence.
+**10+ years of experience · 70+ WordPress projects · WordPress · WooCommerce · Elementor · ACF · UX · Performance · QA & Automation**
 
-**Open to:** WordPress, WooCommerce, Elementor, PHP and web automation roles.  
-**Core stack:** WordPress · WooCommerce · Elementor · ACF · Yoast SEO · PHP · Python · TypeScript/JavaScript · GitHub Actions · Playwright · Lighthouse
+I build, improve and maintain WordPress websites, WooCommerce stores, custom plugins and automation/QA tooling. My work combines practical WordPress development with UX, accessibility, performance, technical SEO and reliable delivery workflows.
 
-## Recruiter snapshot
+**Available for:** remote WordPress roles · contract work · selected freelance projects  
+**Portfolio:** [andrewbaeten.nl](https://andrewbaeten.nl) · **LinkedIn:** [Andrew Baeten](https://www.linkedin.com/in/andrew-baeten-305a1478/) · **Email:** [info@andrewbaeten.nl](mailto:info@andrewbaeten.nl)
 
-- Build and maintain WordPress and WooCommerce plugins, content workflows and Elementor/ACF integrations.
-- Automate testing, packaging and releases with GitHub Actions and reproducible build checks.
-- Work across technical SEO, accessibility, performance, browser automation and visual regression testing.
-- Prefer least-privilege integrations, explicit validation, staging-first changes and rollback paths.
-- Keep public repositories free of credentials, customer data and run-specific private information.
+## What I bring
 
-## Selected projects
+- **WordPress & WooCommerce:** custom website work, plugins, Elementor, Gutenberg, ACF, content workflows, maintenance and migrations.
+- **Front end & UX:** responsive interfaces, usability, accessibility, information structure and conversion-focused page layouts.
+- **Performance & SEO:** Core Web Vitals, Lighthouse, technical SEO, Search Console and repeatable website audits.
+- **QA & automation:** GitHub Actions, Playwright, axe-core, visual regression, release checks and AI-assisted workflows.
+- **End-to-end delivery:** from requirements and structure through implementation, testing, improvement and ongoing support.
 
-These are the best starting points for reviewing my work.
+## Featured work
 
-| Project | What it demonstrates | Stack / evidence |
+These projects are the best starting point for recruiters, hiring managers and clients reviewing my technical work.
+
+| Project | Problem it solves | What it demonstrates |
 | --- | --- | --- |
-| [Elementorconnector](https://github.com/Yolol100/Elementorconnector) | A controlled WordPress content bridge for core content, ACF, Yoast and existing Elementor documents, with conflict detection and verified rollback. | PHP, WordPress APIs, Composer, wp-env, GitHub Actions, integration matrices |
-| [Content-Sync-Manager](https://github.com/Yolol100/Content-Sync-Manager) | WordPress content and media export/import tooling with ACF/WooCommerce support, preview-before-write checks and guarded media updates. | PHP, WordPress, ACF, WooCommerce, CI, package validation |
-| [seochecker](https://github.com/Yolol100/seochecker) | Reproducible technical SEO audits that separate live technical evidence from optional Search Console and Ahrefs context. | Python, GitHub Actions, SiteOne, Lighthouse CI, Nu HTML Checker |
-| [Designchecker](https://github.com/Yolol100/Designchecker) | Read-only browser, accessibility, performance, markup and visual-regression evidence for website QA. | TypeScript, Playwright, axe-core, Lighthouse, Pixelmatch, Sharp |
-| [Orchestrator](https://github.com/Yolol100/Orchestrator) | A least-privilege GitHub transport/orchestration layer for bounded automation workflows and inspectable artifacts. | Python, GitHub Actions, GitHub App tokens, contract tests |
+| [Elementorconnector](https://github.com/Yolol100/Elementorconnector) | Safely manage WordPress, Elementor, ACF, Yoast and WooCommerce content through controlled GitHub workflows. | PHP, WordPress APIs, validation, rollback, CI, integration testing |
+| [Content-Sync-Manager](https://github.com/Yolol100/Content-Sync-Manager) | Export, review, update and restore WordPress content and media with safeguards before writes. | WordPress, ACF, WooCommerce, media workflows, package validation |
+| [seochecker](https://github.com/Yolol100/seochecker) | Produce repeatable technical SEO audits instead of relying on manual spot checks. | Python, GitHub Actions, SiteOne, Lighthouse CI, HTML validation |
+| [Designchecker](https://github.com/Yolol100/Designchecker) | Generate repeatable browser, accessibility, performance and visual-regression evidence. | TypeScript, Playwright, axe-core, Lighthouse, Pixelmatch, Sharp |
+| [ACF-Text-Manager](https://github.com/Yolol100/ACF-Text-Manager) | Make structured WordPress/ACF content easier to review and manage. | PHP, WordPress, ACF, structured content workflows |
+| [Orchestrator](https://github.com/Yolol100/Orchestrator) | Coordinate bounded automation tasks with inspectable evidence and least-privilege execution. | Python, GitHub Actions, GitHub App permissions, contract tests |
 
 ## Two-minute technical review
 
-For a fast technical assessment, each flagship exposes implementation, tests and CI directly:
+If you only have a few minutes, these links go directly to implementation, tests and CI:
 
 - **Elementorconnector:** [implementation](https://github.com/Yolol100/Elementorconnector/tree/main/includes) · [tests](https://github.com/Yolol100/Elementorconnector/tree/main/tests) · [CI](https://github.com/Yolol100/Elementorconnector/tree/main/.github/workflows)
 - **Content-Sync-Manager:** [implementation](https://github.com/Yolol100/Content-Sync-Manager/tree/main/includes) · [tests](https://github.com/Yolol100/Content-Sync-Manager/tree/main/tests) · [CI](https://github.com/Yolol100/Content-Sync-Manager/tree/main/.github/workflows)
@@ -35,32 +38,16 @@ For a fast technical assessment, each flagship exposes implementation, tests and
 - **Designchecker:** [implementation](https://github.com/Yolol100/Designchecker/tree/main/src) · [tests](https://github.com/Yolol100/Designchecker/tree/main/tests) · [CI](https://github.com/Yolol100/Designchecker/tree/main/.github/workflows)
 - **Orchestrator:** [implementation](https://github.com/Yolol100/Orchestrator/tree/main/scripts) · [tests](https://github.com/Yolol100/Orchestrator/tree/main/tests) · [CI](https://github.com/Yolol100/Orchestrator/tree/main/.github/workflows)
 
-## What I focus on
-
-### WordPress & WooCommerce
-
-Custom plugins, content synchronization, ACF, Elementor, Yoast SEO, media workflows, safe imports/exports and release packaging.
-
-### Automation & delivery
-
-Python/JavaScript automation, GitHub Actions, CI gates, reproducible builds, artifact-based workflows and controlled release processes.
-
-### Website quality
-
-Technical SEO, accessibility, browser automation, performance, HTML validation and visual regression testing.
-
-### Engineering beyond WordPress
-
-I also build portable Windows tooling and World of Warcraft addons. See [KeystoneLens](https://github.com/Yolol100/KeystoneLens) and [RaidLeadAssist](https://github.com/Yolol100/RaidLeadAssist) for Python/Lua and release-engineering examples.
-
 ## How I work
 
-- Changes are developed through branches and pull requests where appropriate.
-- Tests and reproducible evidence are part of release work, not an afterthought.
-- Automation receives only the permissions it needs.
-- Risky content changes use validation, staging, conflict checks and rollback where applicable.
-- Public repositories do not contain credentials, customer data or private runtime state.
+- Keep changes reviewable and testable.
+- Use staging, validation, conflict checks and rollback for risky website changes.
+- Treat accessibility, performance and QA as part of delivery rather than afterthoughts.
+- Keep public repositories free of credentials, customer data and private runtime state.
+- Prefer maintainable solutions that clients and teams can continue to work with.
 
-## For hiring managers
+## Looking for a WordPress specialist?
 
-If you only have a few minutes, start with **Elementorconnector**, **Content-Sync-Manager**, **seochecker**, **Designchecker** and **Orchestrator**. Together they show WordPress/PHP development, automation, CI/release engineering, SEO/QA tooling and security-conscious integration work.
+I am open to **remote employment, contract work and selected freelance WordPress projects** involving WordPress, WooCommerce, Elementor, ACF, UX, website quality, performance or automation.
+
+[View my portfolio](https://andrewbaeten.nl) · [Connect on LinkedIn](https://www.linkedin.com/in/andrew-baeten-305a1478/) · [Email me](mailto:info@andrewbaeten.nl)
