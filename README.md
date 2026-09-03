@@ -1,8 +1,8 @@
 # Andrew Baeten — Senior WordPress Developer & Web Designer
 
-**10+ years of experience · 70+ WordPress projects · WordPress · WooCommerce · Elementor · ACF · UX · Performance · QA & Automation**
+**10+ years of experience · 90+ WordPress projects · 120+ websites & webshops managed · WordPress · WooCommerce · Elementor · ACF · UX · Performance · QA & Automation**
 
-I build, improve and maintain WordPress websites, WooCommerce stores, custom plugins and automation/QA tooling. My work combines practical WordPress development with UX, accessibility, performance, technical SEO and reliable delivery workflows.
+I build, improve and maintain WordPress websites, WooCommerce stores, custom plugins and automation/QA tooling. I currently manage and regularly update **120+ websites and webshops**, combining day-to-day maintenance with UX, accessibility, performance, technical SEO, QA and reliable delivery workflows.
 
 **Available for:** remote WordPress roles · contract work · selected freelance projects  
 **Portfolio:** [andrewbaeten.nl](https://andrewbaeten.nl) · **LinkedIn:** [Andrew Baeten](https://www.linkedin.com/in/andrew-baeten-305a1478/) · **Email:** [info@andrewbaeten.nl](mailto:info@andrewbaeten.nl)
@@ -10,6 +10,7 @@ I build, improve and maintain WordPress websites, WooCommerce stores, custom plu
 ## What I bring
 
 - **WordPress & WooCommerce:** custom website work, plugins, Elementor, Gutenberg, ACF, content workflows, maintenance and migrations.
+- **Website portfolio management:** ongoing maintenance, updates, QA and improvements across 120+ websites and webshops.
 - **Front end & UX:** responsive interfaces, usability, accessibility, information structure and conversion-focused page layouts.
 - **Performance & SEO:** Core Web Vitals, Lighthouse, technical SEO, Search Console and repeatable website audits.
 - **QA & automation:** GitHub Actions, Playwright, axe-core, visual regression, release checks and AI-assisted workflows.
