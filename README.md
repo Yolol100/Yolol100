@@ -4,6 +4,8 @@
 
 I build, improve and maintain WordPress websites, WooCommerce stores, custom plugins and quality/automation tooling. My work combines day-to-day website management with PHP development, structured content workflows, UX, accessibility, performance, technical SEO and repeatable QA.
 
+Most client and production work is private. The repositories below are selected public examples of the engineering, WordPress tooling and QA/automation work I use to demonstrate how I build, validate and maintain websites and plugins.
+
 **Open to:** fully remote WordPress Developer / WordPress Engineer roles · contract work · selected freelance projects  
 **Portfolio:** [andrewbaeten.nl](https://andrewbaeten.nl) · **LinkedIn:** [Andrew Baeten](https://www.linkedin.com/in/andrew-baeten-305a1478/) · **Email:** [info@andrewbaeten.nl](mailto:info@andrewbaeten.nl)
 
