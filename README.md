@@ -6,7 +6,7 @@
 
 I build, improve and maintain WordPress websites, WooCommerce stores and custom WordPress tooling. My background combines front-end development, UX, SEO and hands-on WordPress engineering, so I focus on websites that are clear for visitors, manageable for editors and reliable after launch.
 
-Most client and production work is private. The repositories below are selected public examples that show how I solve WordPress, WooCommerce, performance and website-quality problems.
+Most client and production work is private. The six projects below are selected public examples that show how I solve WordPress, WooCommerce, performance, media-management and website-quality problems.
 
 **Available for:** fully remote WordPress Developer / WordPress Engineer roles · contract work · selected freelance projects  
 **Portfolio:** [andrewbaeten.nl](https://andrewbaeten.nl) · **LinkedIn:** [Andrew Baeten](https://www.linkedin.com/in/andrew-baeten-305a1478/) · **Email:** [info@andrewbaeten.nl](mailto:info@andrewbaeten.nl)
@@ -20,7 +20,7 @@ Most client and production work is private. The repositories below are selected 
 - **Quality & automation:** GitHub Actions, Playwright, axe-core, visual regression, release checks and evidence-driven QA.
 - **Maintainability:** small reviewable changes, staging-first validation for higher-risk work, rollback planning and documentation teams can continue to use.
 
-## Five projects to review first
+## Six projects to review first
 
 | Project | What it solves | What it demonstrates |
 | --- | --- | --- |
@@ -29,10 +29,10 @@ Most client and production work is private. The repositories below are selected 
 | [SooCool for WooCommerce](https://github.com/Yolol100/soocool-for-woocommerce) | Connects WooCommerce orders with a transport API, webhooks, delivery scheduling and shipping labels. | WooCommerce, HPOS, REST/API integration, webhooks, background jobs, security boundaries |
 | [UltraCache Pro](https://github.com/Yolol100/Ultracache-pro) | Combines WordPress caching and front-end optimization with conservative production safeguards. | Performance engineering, caching, CSS/JS/media optimization, WooCommerce safeguards, diagnostics |
 | [Designchecker](https://github.com/Yolol100/Designchecker) | Produces repeatable browser, accessibility, performance, markup and visual-regression evidence. | TypeScript, Playwright, axe-core, Lighthouse, Pixelmatch, CI |
+| [Media Insight](https://github.com/Yolol100/scan-duplicate-images) | Finds repeated image usage across featured images and ACF fields without changing website content. | WordPress/PHP, REST API, ACF, background processing, locking, read-only auditing |
 
 ### More relevant engineering
 
-- [Media Insight](https://github.com/Yolol100/scan-duplicate-images) — read-only WordPress media usage auditing across featured images and ACF fields.
 - [SEO Checker](https://github.com/Yolol100/seochecker) — repeatable technical SEO evidence for public URLs.
 - [GitHub Orchestrator](https://github.com/Yolol100/Orchestrator) — controlled multi-repository automation with explicit contracts and least-privilege transport.
 
