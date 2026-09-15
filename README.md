@@ -29,7 +29,7 @@ Most client and production work is private. The six projects below are selected 
 | [SooCool for WooCommerce](https://github.com/Yolol100/soocool-for-woocommerce) | Connects WooCommerce orders with a transport API, webhooks, delivery scheduling and shipping labels. | WooCommerce, HPOS, REST/API integration, webhooks, background jobs, security boundaries |
 | [UltraCache Pro](https://github.com/Yolol100/Ultracache-pro) | Combines WordPress caching and front-end optimization with conservative production safeguards. | Performance engineering, caching, CSS/JS/media optimization, WooCommerce safeguards, diagnostics |
 | [Designchecker](https://github.com/Yolol100/Designchecker) | Produces repeatable browser, accessibility, performance, markup and visual-regression evidence. | TypeScript, Playwright, axe-core, Lighthouse, Pixelmatch, CI |
-| [Export ACF to CSV](https://github.com/Yolol100/Export-acf-to-csv) | Preserves the earlier structured ACF content export/import workflow as a migration reference for ACF Page Text Manager. | WordPress/PHP, ACF, CSV/XLSX, import/export workflows, migration and compatibility work |
+| [KeystoneLens](https://github.com/Yolol100/KeystoneLens) | Combines a World of Warcraft bridge add-on with a local companion for Mythic+ recruitment analysis. | Lua, Python, local companion tooling, data transport, runtime packaging |
 
 ### More relevant engineering
 
