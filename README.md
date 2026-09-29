@@ -6,10 +6,12 @@
 
 I build, improve and maintain WordPress websites, WooCommerce stores and custom WordPress tooling. My background combines development, UX and website quality, with a focus on clear user journeys, maintainable editing and reliable delivery.
 
-Most client and production work is private. The public repositories below show how I approach engineering; client-facing website cases and live work are available in my portfolio.
+GitHub shows the public engineering side of my work. Client-facing website cases and live project context are available in my portfolio.
 
+**For hiring teams:** start with the five projects below. For automation/integration work, also review [GitHub Orchestrator](https://github.com/Yolol100/Orchestrator) and [WordPress Connector](https://github.com/Yolol100/wordpressconnector).  
+**For clients & agencies:** start with [portfolio cases](https://andrewbaeten.nl/category/cases) for website work and project context.  
 **Available for:** fully remote WordPress Developer / WordPress Engineer roles · contract work · selected freelance projects  
-**Portfolio cases:** [andrewbaeten.nl/category/cases](https://andrewbaeten.nl/category/cases) · **LinkedIn:** [Andrew Baeten](https://www.linkedin.com/in/andrew-baeten-305a1478/) · **Email:** [info@andrewbaeten.nl](mailto:info@andrewbaeten.nl)
+**LinkedIn:** [Andrew Baeten](https://www.linkedin.com/in/andrew-baeten-305a1478/) · **Email:** [info@andrewbaeten.nl](mailto:info@andrewbaeten.nl)
 
 ## Five projects to review first
 
