@@ -33,7 +33,7 @@ GitHub shows the public engineering side of my work. Client-facing website cases
 
 ## Repository map
 
-Start with the five projects above. Other public repositories are deliberately labeled at the top of their README as **supporting portfolio/engineering**, **active supporting tooling**, **experiment**, **legacy/rollback**, or **other engineering**, so their role is clear when browsing the full repository list.
+Start with the five projects above. Public project repositories are labeled at the top of their README as **supporting portfolio/engineering**, **active supporting tooling**, **experiment**, **legacy/rollback**, or **other engineering** where that classification is relevant, so their role is clear when browsing the repository list.
 
 ## More engineering
 
