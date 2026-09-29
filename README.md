@@ -29,6 +29,10 @@ Most client and production work is private. The public repositories below show h
 - **Performance & technical SEO:** Core Web Vitals, caching, Lighthouse, indexability, structured data and repeatable technical checks.
 - **Quality & automation:** GitHub Actions, Playwright, axe-core, visual regression, release checks and evidence-driven QA.
 
+## Repository map
+
+Start with the five projects above. Other public repositories are deliberately labeled at the top of their README as **supporting portfolio/engineering**, **active supporting tooling**, **experiment**, **legacy/rollback**, or **other engineering**, so their role is clear when browsing the full repository list.
+
 ## More engineering
 
 - [Media Insight](https://github.com/Yolol100/scan-duplicate-images) — read-only WordPress media usage auditing across featured images and ACF fields.
