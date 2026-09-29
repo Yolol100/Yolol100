@@ -1,6 +1,6 @@
 # Andrew Baeten — Senior WordPress Developer & Web Designer
 
-**WordPress Developer at Webactueel · Rotterdam, The Netherlands · 10+ years of experience · 70+ delivered WordPress projects**
+**WordPress Developer at Webactueel · Rotterdam, The Netherlands · 10+ years of experience · 90+ WordPress projects · 120+ websites & webshops under ongoing management**
 
 **WordPress · WooCommerce · Elementor · ACF · PHP · JavaScript · UX · Performance · Technical SEO · QA & Automation**
 
