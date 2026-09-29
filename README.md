@@ -52,7 +52,7 @@ Start with the five projects above. Public project repositories are labeled at t
 
 ## Professional background
 
-My experience spans front-end development, UX design and WordPress development. I worked at Bergo, Blueprint Sound Academy, Kamernet, Easytheorie and Wube before joining **Webactueel** in 2021. My current work combines WordPress, WooCommerce, Elementor, UX, SEO, performance and QA across a large website and webshop portfolio.
+My experience spans front-end development, UX design and WordPress development. I worked at Bergo, Blueprint Sound Academy, Kamernet, Easytheorie and Wube before joining **Webactueel** in 2021. My current work combines WordPress, WooCommerce, Elementor, UX, SEO, performance and QA with ongoing management of **120+ websites and webshops**.
 
 For visual client work and case studies, see [andrewbaeten.nl/category/cases](https://andrewbaeten.nl/category/cases).
 
