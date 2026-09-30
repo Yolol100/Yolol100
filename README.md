@@ -11,14 +11,14 @@ I currently work as a **WordPress Developer at Webactueel**. GitHub shows the pu
 
 ## Six pinned projects to review first
 
-| Project | What it shows |
-| --- | --- |
-| [ACF Page Text Manager](https://github.com/Yolol100/ACF-Text-Manager) | WordPress/PHP admin tooling, ACF, SEO metadata, CSV/XLSX and guarded bulk content workflows |
-| [Content Sync Manager](https://github.com/Yolol100/Content-Sync-Manager) | Structured WordPress/WooCommerce content updates, validation, media workflows and recovery |
-| [SooCool for WooCommerce](https://github.com/Yolol100/soocool-for-woocommerce) | WooCommerce integration work, REST APIs, webhooks, background jobs and shipping workflows |
-| [UltraCache Pro](https://github.com/Yolol100/Ultracache-pro) | WordPress caching, Core Web Vitals work, front-end optimization and WooCommerce safeguards |
-| [AI Patch Runner](https://github.com/Yolol100/Patchrunner) | Guarded WordPress plugin patching with preview, backup, production gates and rollback |
-| [Dienstenoverzicht](https://github.com/Yolol100/Dienstenoverzicht) | Structured WordPress content, custom post types, taxonomies, AJAX filtering and CSV workflows |
+| Project | What it shows | Verification |
+| --- | --- | --- |
+| [ACF Page Text Manager](https://github.com/Yolol100/ACF-Text-Manager) | WordPress/PHP admin tooling, ACF, SEO metadata, CSV/XLSX and guarded bulk content workflows | [WordPress runtime](https://github.com/Yolol100/ACF-Text-Manager/actions/workflows/wordpress-compatibility.yml) |
+| [Content Sync Manager](https://github.com/Yolol100/Content-Sync-Manager) | Structured WordPress/WooCommerce content updates, validation, media workflows and recovery | [Quality](https://github.com/Yolol100/Content-Sync-Manager/actions/workflows/quality.yml) · [runtime](https://github.com/Yolol100/Content-Sync-Manager/actions/workflows/runtime-release-gate.yml) |
+| [SooCool for WooCommerce](https://github.com/Yolol100/soocool-for-woocommerce) | WooCommerce integration work, REST APIs, webhooks, background jobs and shipping workflows | [Quality](https://github.com/Yolol100/soocool-for-woocommerce/actions/workflows/plugin-quality.yml) · [Woo runtime](https://github.com/Yolol100/soocool-for-woocommerce/actions/workflows/woocommerce-runtime.yml) |
+| [UltraCache Pro](https://github.com/Yolol100/Ultracache-pro) | WordPress caching, Core Web Vitals work, front-end optimization and WooCommerce safeguards | [PHP + WordPress runtime](https://github.com/Yolol100/Ultracache-pro/actions/workflows/php-compatibility.yml) |
+| [AI Patch Runner](https://github.com/Yolol100/Patchrunner) | Guarded WordPress plugin patching with preview, backup, production gates and rollback | [PHP + WordPress runtime](https://github.com/Yolol100/Patchrunner/actions/workflows/php-compatibility.yml) |
+| [Dienstenoverzicht](https://github.com/Yolol100/Dienstenoverzicht) | Structured WordPress content, custom post types, taxonomies, AJAX filtering and CSV workflows | [WordPress runtime](https://github.com/Yolol100/Dienstenoverzicht/actions/workflows/wordpress-compatibility.yml) |
 
 ## Core strengths
 
