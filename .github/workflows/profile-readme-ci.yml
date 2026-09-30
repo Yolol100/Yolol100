@@ -1,0 +1,80 @@
+name: Profile README consistency
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - README.md
+      - .github/workflows/profile-readme-ci.yml
+  pull_request:
+    paths:
+      - README.md
+      - .github/workflows/profile-readme-ci.yml
+
+permissions:
+  contents: read
+
+jobs:
+  verify-profile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Verify canonical portfolio facts and pinned projects
+        shell: python
+        run: |
+          from pathlib import Path
+          import re
+
+          text = Path("README.md").read_text(encoding="utf-8")
+
+          required = [
+              "90+ WordPress projects",
+              "120+ websites & webshops under ongoing management",
+              "Six pinned projects to review first",
+          ]
+          missing = [value for value in required if value not in text]
+          if missing:
+              raise SystemExit("Missing canonical profile content: " + ", ".join(missing))
+
+          forbidden = [
+              "70+ WordPress projects",
+              "70+ delivered projects",
+              "Built by Andrew Baeten",
+          ]
+          present = [value for value in forbidden if value in text]
+          if present:
+              raise SystemExit("Stale or unsupported profile content: " + ", ".join(present))
+
+          expected = [
+              "ACF-Text-Manager",
+              "Content-Sync-Manager",
+              "soocool-for-woocommerce",
+              "Ultracache-pro",
+              "Patchrunner",
+              "Dienstenoverzicht",
+          ]
+
+          section = text.split("## Six pinned projects to review first", 1)[1]
+          section = section.split("\n## ", 1)[0]
+          found = re.findall(
+              r"https://github\.com/Yolol100/([A-Za-z0-9_.-]+)",
+              section,
+          )
+
+          seen = []
+          for repo in found:
+              if repo not in seen:
+                  seen.append(repo)
+
+          if seen[:6] != expected:
+              raise SystemExit(
+                  f"Pinned project table drift: expected {expected}, found {seen[:6]}"
+              )
+
+          print("Profile README consistency verified.")
