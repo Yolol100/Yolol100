@@ -8,12 +8,12 @@ I build, improve and maintain WordPress websites, WooCommerce stores and custom 
 
 GitHub shows the public engineering side of my work. Client-facing website cases and live project context are available in my portfolio.
 
-**For hiring teams:** start with the five projects below. For automation/integration work, also review [GitHub Orchestrator](https://github.com/Yolol100/Orchestrator) and [WordPress Connector](https://github.com/Yolol100/wordpressconnector).  
+**For hiring teams:** start with the six pinned projects below. For QA and automation work, also review [Designchecker](https://github.com/Yolol100/Designchecker), [GitHub Orchestrator](https://github.com/Yolol100/Orchestrator) and [WordPress Connector](https://github.com/Yolol100/wordpressconnector).  
 **For clients & agencies:** start with [portfolio cases](https://andrewbaeten.nl/category/cases) for website work and project context.  
 **Available for:** fully remote WordPress Developer / WordPress Engineer roles · contract work · selected freelance projects  
 **LinkedIn:** [Andrew Baeten](https://www.linkedin.com/in/andrew-baeten-305a1478/) · **Email:** [info@andrewbaeten.nl](mailto:info@andrewbaeten.nl)
 
-## Five projects to review first
+## Six pinned projects to review first
 
 | Project | What it solves | What it demonstrates |
 | --- | --- | --- |
@@ -21,7 +21,8 @@ GitHub shows the public engineering side of my work. Client-facing website cases
 | [Content Sync Manager](https://github.com/Yolol100/Content-Sync-Manager) | Makes structured WordPress content and media updates safer to review, import and recover. | WordPress/PHP, WooCommerce, ACF, media workflows, validation, recovery |
 | [SooCool for WooCommerce](https://github.com/Yolol100/soocool-for-woocommerce) | Connects WooCommerce orders with a transport API, webhooks, delivery scheduling and shipping labels. | WooCommerce, HPOS, REST/API integration, webhooks, background jobs, security boundaries |
 | [UltraCache Pro](https://github.com/Yolol100/Ultracache-pro) | Combines WordPress caching and front-end optimization with conservative production safeguards. | Performance engineering, caching, CSS/JS/media optimization, WooCommerce safeguards, diagnostics |
-| [Designchecker](https://github.com/Yolol100/Designchecker) | Produces repeatable browser, accessibility, performance, markup and visual-regression evidence. | TypeScript, Playwright, axe-core, Lighthouse, Pixelmatch, CI |
+| [AI Patch Runner](https://github.com/Yolol100/Patchrunner) | Adds a guarded review, preview, backup and rollback workflow for structured WordPress plugin patches. | WordPress/PHP, defensive file operations, production gates, rollback |
+| [Dienstenoverzicht](https://github.com/Yolol100/Dienstenoverzicht) | Manages structured business services and exposes them through a searchable, filterable WordPress directory. | WordPress/PHP, custom post types, taxonomies, AJAX filtering, CSV import/export |
 
 ## What I bring
 
@@ -33,10 +34,11 @@ GitHub shows the public engineering side of my work. Client-facing website cases
 
 ## Repository map
 
-Start with the five projects above. Public project repositories are labeled at the top of their README as **supporting portfolio/engineering**, **active supporting tooling**, **experiment**, **legacy/rollback**, or **other engineering** where that classification is relevant, so their role is clear when browsing the repository list.
+Start with the six pinned projects above. Public project repositories are labeled at the top of their README as **supporting portfolio/engineering**, **active supporting tooling**, **experiment**, **legacy/rollback**, or **other engineering** where that classification is relevant, so their role is clear when browsing the repository list.
 
 ## More engineering
 
+- [Designchecker](https://github.com/Yolol100/Designchecker) — repeatable browser, accessibility, performance, markup and visual-regression QA evidence.
 - [Media Insight](https://github.com/Yolol100/scan-duplicate-images) — read-only WordPress media usage auditing across featured images and ACF fields.
 - [SEO Checker](https://github.com/Yolol100/seochecker) — repeatable technical SEO evidence for public URLs.
 - [GitHub Orchestrator](https://github.com/Yolol100/Orchestrator) — controlled multi-repository automation with explicit contracts and least-privilege transport.
