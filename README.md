@@ -2,23 +2,23 @@
 
 **WordPress · WooCommerce · PHP · JavaScript · Elementor · ACF · UX · QA & Automation**
 
-WordPress developer with **10+ years of experience** and **70+ delivered projects**. I build and improve WordPress and WooCommerce solutions that combine custom functionality, integrations, clear UX, performance, accessibility, technical SEO and repeatable QA.
+WordPress developer with **10+ years of experience**, **90+ WordPress projects** and **120+ websites & webshops under ongoing management**. I build and improve WordPress and WooCommerce solutions that combine custom functionality, integrations, clear UX, performance, accessibility, technical SEO and repeatable QA.
 
 I currently work as a **WordPress Developer at Webactueel**. GitHub shows the public engineering side of my work; client-facing website cases and visual project context are available in my portfolio.
 
 **Open to:** fully remote WordPress roles · contract work · selected freelance projects  
 [Portfolio cases](https://andrewbaeten.nl/category/cases) · [LinkedIn](https://www.linkedin.com/in/andrew-baeten-305a1478/) · [Email](mailto:info@andrewbaeten.nl)
 
-## Start here
+## Six pinned projects to review first
 
 | Project | What it shows |
 | --- | --- |
 | [ACF Page Text Manager](https://github.com/Yolol100/ACF-Text-Manager) | WordPress/PHP admin tooling, ACF, SEO metadata, CSV/XLSX and guarded bulk content workflows |
 | [Content Sync Manager](https://github.com/Yolol100/Content-Sync-Manager) | Structured WordPress/WooCommerce content updates, validation, media workflows and recovery |
 | [SooCool for WooCommerce](https://github.com/Yolol100/soocool-for-woocommerce) | WooCommerce integration work, REST APIs, webhooks, background jobs and shipping workflows |
-| [WooCommerce Egaline Calculator](https://github.com/Yolol100/Woocommerce-egaline-calculator) | Product-specific calculations carried safely through cart, checkout and order data |
+| [UltraCache Pro](https://github.com/Yolol100/Ultracache-pro) | WordPress caching, Core Web Vitals work, front-end optimization and WooCommerce safeguards |
 | [AI Patch Runner](https://github.com/Yolol100/Patchrunner) | Guarded WordPress plugin patching with preview, backup, production gates and rollback |
-| [Designchecker](https://github.com/Yolol100/Designchecker) | Repeatable browser, accessibility, performance and visual-regression QA |
+| [Dienstenoverzicht](https://github.com/Yolol100/Dienstenoverzicht) | Structured WordPress content, custom post types, taxonomies, AJAX filtering and CSV workflows |
 
 ## Core strengths
 
@@ -30,11 +30,11 @@ I currently work as a **WordPress Developer at Webactueel**. GitHub shows the pu
 
 ## More engineering work
 
+- [Designchecker](https://github.com/Yolol100/Designchecker) — repeatable browser, accessibility, performance and visual-regression QA.
 - [Pontifex OI](https://github.com/Yolol100/Pontifex) — WordPress integration with SOAP API, registration flows and Mollie payments.
 - [SEO Checker](https://github.com/Yolol100/seochecker) — bounded technical SEO observation and regression evidence.
-- [WordPress Connector](https://github.com/Yolol100/wordpressconnector) — guarded WordPress integration and automation workflows.
 - [GitHub Orchestrator](https://github.com/Yolol100/Orchestrator) — controlled multi-repository automation with explicit contracts.
-- [UltraCache Pro](https://github.com/Yolol100/Ultracache-pro) — WordPress caching and front-end optimization with production safeguards.
+- [WooCommerce Egaline Calculator](https://github.com/Yolol100/Woocommerce-egaline-calculator) — product calculations carried through cart, checkout and order data.
 - [KeystoneLens](https://github.com/Yolol100/KeystoneLens) — Lua/Python tooling, compatibility work and reproducible packaging.
 
 ## How I work
