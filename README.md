@@ -1,8 +1,8 @@
-# Andrew Baeten — Senior WordPress Developer
+# Andrew Baeten — WordPress Developer
 
 **WordPress · WooCommerce · PHP · JavaScript · Elementor · ACF · UX · QA & Automation**
 
-Senior WordPress developer with **10+ years of experience** and **70+ delivered projects**. I build and improve WordPress and WooCommerce solutions that combine custom functionality, integrations, clear UX, performance, accessibility, technical SEO and repeatable QA.
+WordPress developer with **10+ years of experience** and **70+ delivered projects**. I build and improve WordPress and WooCommerce solutions that combine custom functionality, integrations, clear UX, performance, accessibility, technical SEO and repeatable QA.
 
 I currently work as a **WordPress Developer at Webactueel**. GitHub shows the public engineering side of my work; client-facing website cases and visual project context are available in my portfolio.
 
