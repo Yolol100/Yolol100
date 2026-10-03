@@ -9,7 +9,15 @@ I currently work as a **WordPress Developer at Webactueel**. GitHub shows the pu
 **Open to:** fully remote WordPress roles · contract work · selected freelance projects  
 [Portfolio cases](https://andrewbaeten.nl/category/cases) · [LinkedIn](https://www.linkedin.com/in/andrew-baeten-305a1478/) · [Email](mailto:info@andrewbaeten.nl)
 
-## Six pinned projects to review first
+## Start here
+
+**For clients:** [Website cases](https://andrewbaeten.nl/category/cases) show the client-facing side of my work. For project enquiries, [email me](mailto:info@andrewbaeten.nl).
+
+**For recruiters:** Review the [selected projects](#selected-projects), [core strengths](#core-strengths) and [professional background](#professional-background) below.
+
+**For technical reviewers:** Each selected project links to its repository and verification workflow. The [working approach](#how-i-work) explains how I handle maintainability, validation and higher-risk changes.
+
+## Selected projects
 
 | Project | What it shows | Verification |
 | --- | --- | --- |
