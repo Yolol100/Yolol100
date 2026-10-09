@@ -1,60 +1,56 @@
-# Andrew Baeten — WordPress Developer
+# Andrew Baeten — WordPress Developer & Web Designer
 
-**WordPress · WooCommerce · PHP · JavaScript · Elementor · ACF · UX · QA & Automation**
+**WordPress · WooCommerce · PHP · Elementor · ACF · UX · Performance · QA**
 
-WordPress developer with **10+ years of experience**, **90+ WordPress projects** and **120+ websites & webshops under ongoing management**. I build and improve WordPress and WooCommerce solutions that combine custom functionality, integrations, clear UX, performance, accessibility, technical SEO and repeatable QA.
+I build and improve WordPress websites, WooCommerce stores and custom plugins. My focus is clear user experiences, maintainable code, integrations, performance and reliable delivery.
 
-I currently work as a **WordPress Developer at Webactueel**. GitHub shows the public engineering side of my work; client-facing website cases and visual project context are available in my portfolio.
+**WordPress Developer at Webactueel** · Open to fully remote WordPress roles, contract work and selected freelance projects.
 
-**Open to:** fully remote WordPress roles · contract work · selected freelance projects  
-[Portfolio cases](https://andrewbaeten.nl/category/cases) · [LinkedIn](https://www.linkedin.com/in/andrew-baeten-305a1478/) · [Email](mailto:info@andrewbaeten.nl)
+[Website & design portfolio](https://andrewbaeten.nl/category/cases) · [LinkedIn](https://www.linkedin.com/in/andrew-baeten-305a1478/) · [Email](mailto:info@andrewbaeten.nl)
 
 ## Start here
 
-**For clients:** [Website cases](https://andrewbaeten.nl/category/cases) show the client-facing side of my work. For project enquiries, [email me](mailto:info@andrewbaeten.nl).
+- **Hiring a developer?** See my [website and design cases](https://andrewbaeten.nl/category/cases) for client-facing work, or [get in touch](mailto:info@andrewbaeten.nl).
+- **Recruiting for a WordPress role?** Browse the selected projects below for practical WordPress, WooCommerce, integration and QA examples.
+- **Reviewing my code?** Each project links to its own documentation, implementation and available checks.
 
-**For recruiters:** Review the [selected projects](#selected-projects), [core strengths](#core-strengths) and [professional background](#professional-background) below.
+## Selected work
 
-**For technical reviewers:** Each selected project links to its repository and verification workflow. The [working approach](#how-i-work) explains how I handle maintainability, validation and higher-risk changes.
+| Project | What it demonstrates |
+| --- | --- |
+| [ACF Text Manager](https://github.com/Yolol100/ACF-Text-Manager) | ACF-based WordPress content tooling, metadata and guarded bulk updates |
+| [Content Sync Manager](https://github.com/Yolol100/Content-Sync-Manager) | Structured WordPress/WooCommerce import, validation and recovery workflows |
+| [SooCool for WooCommerce](https://github.com/Yolol100/soocool-for-woocommerce) | WooCommerce API integration, webhooks, order processing and HPOS-aware workflows |
+| [UltraCache Pro](https://github.com/Yolol100/Ultracache-pro) | WordPress caching, frontend performance and WooCommerce-aware safeguards |
+| [Designchecker](https://github.com/Yolol100/Designchecker) | Browser QA, accessibility checks, Lighthouse and visual-regression tooling |
+| [AI Patch Runner](https://github.com/Yolol100/Patchrunner) | Controlled WordPress plugin changes, previews, backups and rollback |
 
-## Selected projects
+**For visual results**, start with the [website portfolio](https://andrewbaeten.nl/category/cases). The GitHub projects above primarily show implementation and engineering decisions; they are not presented as client case studies or production-performance guarantees.
 
-| Project | What it shows | Verification |
-| --- | --- | --- |
-| [ACF Page Text Manager](https://github.com/Yolol100/ACF-Text-Manager) | WordPress/PHP admin tooling, ACF, SEO metadata, CSV/XLSX and guarded bulk content workflows | [WordPress runtime](https://github.com/Yolol100/ACF-Text-Manager/actions/workflows/wordpress-compatibility.yml) |
-| [Content Sync Manager](https://github.com/Yolol100/Content-Sync-Manager) | Structured WordPress/WooCommerce content updates, validation, media workflows and recovery | [Quality](https://github.com/Yolol100/Content-Sync-Manager/actions/workflows/quality.yml) · [runtime](https://github.com/Yolol100/Content-Sync-Manager/actions/workflows/runtime-release-gate.yml) |
-| [SooCool for WooCommerce](https://github.com/Yolol100/soocool-for-woocommerce) | WooCommerce integration work, REST APIs, webhooks, background jobs and shipping workflows | [Quality](https://github.com/Yolol100/soocool-for-woocommerce/actions/workflows/plugin-quality.yml) · [Woo runtime](https://github.com/Yolol100/soocool-for-woocommerce/actions/workflows/woocommerce-runtime.yml) |
-| [UltraCache Pro](https://github.com/Yolol100/Ultracache-pro) | WordPress caching, Core Web Vitals work, front-end optimization and WooCommerce safeguards | [PHP + WordPress runtime](https://github.com/Yolol100/Ultracache-pro/actions/workflows/php-compatibility.yml) |
-| [AI Patch Runner](https://github.com/Yolol100/Patchrunner) | Guarded WordPress plugin patching with preview, backup, production gates and rollback | [PHP + WordPress runtime](https://github.com/Yolol100/Patchrunner/actions/workflows/php-compatibility.yml) |
-| [Dienstenoverzicht](https://github.com/Yolol100/Dienstenoverzicht) | Structured WordPress content, custom post types, taxonomies, AJAX filtering and CSV workflows | [WordPress runtime](https://github.com/Yolol100/Dienstenoverzicht/actions/workflows/wordpress-compatibility.yml) |
+## More projects by area
 
-## Core strengths
+**WordPress & ecommerce**
+[WooCommerce Egaline Calculator](https://github.com/Yolol100/Woocommerce-egaline-calculator) · [Dienstenoverzicht](https://github.com/Yolol100/Dienstenoverzicht) · [Pontifex](https://github.com/Yolol100/Pontifex) · [WordPress Connector](https://github.com/Yolol100/wordpressconnector)
 
-- **WordPress & WooCommerce:** custom plugins, Elementor, Gutenberg, ACF, forms, content workflows and maintenance.
-- **PHP & integrations:** REST APIs, webhooks, payment/integration flows, validation, background processing and import/export.
-- **UX-minded development:** responsive interfaces, information architecture, accessibility-aware implementation and clear user journeys.
-- **Performance & technical SEO:** Core Web Vitals, Lighthouse, caching, indexability and repeatable technical checks.
-- **QA & automation:** Git/GitHub, GitHub Actions, Playwright, axe-core, browser checks and evidence-driven release verification.
+**Website quality & SEO**
+[SEO Checker](https://github.com/Yolol100/seochecker) · [Image Usage Scanner](https://github.com/Yolol100/scan-duplicate-images) · [Designchecker](https://github.com/Yolol100/Designchecker)
 
-## More engineering work
+**Automation & supporting tools**
+[GitHub Orchestrator](https://github.com/Yolol100/Orchestrator) · [Leadscanner](https://github.com/Yolol100/Leadscanner) · [Vacature Engine](https://github.com/Yolol100/vacature-engine)
 
-- [Designchecker](https://github.com/Yolol100/Designchecker) — repeatable browser, accessibility, performance and visual-regression QA.
-- [Pontifex OI](https://github.com/Yolol100/Pontifex) — WordPress integration with SOAP API, registration flows and Mollie payments.
-- [SEO Checker](https://github.com/Yolol100/seochecker) — bounded technical SEO observation and regression evidence.
-- [GitHub Orchestrator](https://github.com/Yolol100/Orchestrator) — controlled multi-repository automation with explicit contracts.
-- [WooCommerce Egaline Calculator](https://github.com/Yolol100/Woocommerce-egaline-calculator) — product calculations carried through cart, checkout and order data.
-- [KeystoneLens](https://github.com/Yolol100/KeystoneLens) — Lua/Python tooling, compatibility work and reproducible packaging.
+**Other engineering interests**
+[KeystoneLens](https://github.com/Yolol100/KeystoneLens) — WoW add-on development, compatibility and testable packaging.
 
 ## How I work
 
-- Start with the user, business goal and technical constraints.
-- Keep changes understandable, reviewable and maintainable.
-- Use staging, validation and rollback paths for higher-risk changes.
-- Treat accessibility, performance, security and QA as part of delivery.
-- Keep credentials, customer data and private runtime state out of public repositories.
+- Design around real user and business needs.
+- Keep code and integrations understandable, maintainable and reviewable.
+- Verify changes with relevant automated checks and manual QA.
+- Prefer conservative rollouts, clear safeguards and rollback for higher-risk changes.
+- Never treat a green CI check as proof of every production scenario.
 
-## Professional background
+## Background & contact
 
-My background combines front-end development, UX design and WordPress development. Before Webactueel, I worked at Wube, Easytheorie, Kamernet, Blueprint Sound Academy, Bergo and ACI Computers.
+My background combines web design, front-end development and WordPress development. I currently work at **Webactueel**; previous workplaces include Wube, Easytheorie, Kamernet, Blueprint Sound Academy, Bergo and ACI Computers.
 
-For client-facing website work and case studies, see my [portfolio cases](https://andrewbaeten.nl/category/cases).
+For a WordPress role, website project or technical collaboration: [portfolio](https://andrewbaeten.nl/category/cases) · [LinkedIn](https://www.linkedin.com/in/andrew-baeten-305a1478/) · [email](mailto:info@andrewbaeten.nl).
