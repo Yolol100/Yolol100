@@ -7,10 +7,14 @@ on:
     paths:
       - README.md
       - .github/workflows/profile-readme-ci.yml
+      - .github/scripts/profile_audit.py
+      - .github/tests/test_profile_audit.py
   pull_request:
     paths:
       - README.md
       - .github/workflows/profile-readme-ci.yml
+      - .github/scripts/profile_audit.py
+      - .github/tests/test_profile_audit.py
 
 permissions:
   contents: read
@@ -25,56 +29,17 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: Verify canonical portfolio facts and pinned projects
-        shell: python
+      - name: Compile profile validator and tests
+        run: python3 -m py_compile .github/scripts/profile_audit.py .github/tests/test_profile_audit.py
+
+      - name: Test normal and failure scenarios
+        run: python3 -m unittest discover -s .github/tests -p 'test_*.py' -v
+
+      - name: Read canonical pins from governance repository
         run: |
-          from pathlib import Path
-          import re
+          curl --fail --silent --show-error --location --retry 3 --retry-delay 1 \
+            --output pinned-config.json \
+            https://raw.githubusercontent.com/Yolol100/.github/main/github-admin.json
 
-          text = Path("README.md").read_text(encoding="utf-8")
-
-          required = [
-              "90+ WordPress projects",
-              "120+ websites & webshops under ongoing management",
-              "Six pinned projects to review first",
-          ]
-          missing = [value for value in required if value not in text]
-          if missing:
-              raise SystemExit("Missing canonical profile content: " + ", ".join(missing))
-
-          forbidden = [
-              "70+ WordPress projects",
-              "70+ delivered projects",
-              "Built by Andrew Baeten",
-          ]
-          present = [value for value in forbidden if value in text]
-          if present:
-              raise SystemExit("Stale or unsupported profile content: " + ", ".join(present))
-
-          expected = [
-              "ACF-Text-Manager",
-              "Content-Sync-Manager",
-              "soocool-for-woocommerce",
-              "Ultracache-pro",
-              "Patchrunner",
-              "Dienstenoverzicht",
-          ]
-
-          section = text.split("## Six pinned projects to review first", 1)[1]
-          section = section.split("\n## ", 1)[0]
-          found = re.findall(
-              r"https://github\.com/Yolol100/([A-Za-z0-9_.-]+)",
-              section,
-          )
-
-          seen = []
-          for repo in found:
-              if repo not in seen:
-                  seen.append(repo)
-
-          if seen[:6] != expected:
-              raise SystemExit(
-                  f"Pinned project table drift: expected {expected}, found {seen[:6]}"
-              )
-
-          print("Profile README consistency verified.")
+      - name: Validate published profile against canonical pins
+        run: python3 .github/scripts/profile_audit.py README.md pinned-config.json
