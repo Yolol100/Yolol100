@@ -52,8 +52,11 @@ def audit_profile(readme, config):
 
     links = LINK_RE.findall(readme)
     targets = [url for _, url in links]
-    if not any(url.startswith("https://andrewbaeten.nl/") for url in targets):
-        errors.append("Missing portfolio link")
+    if not any(
+        "portfolio" in label.lower() and url.startswith("https://andrewbaeten.nl/")
+        for label, url in links
+    ):
+        errors.append("Missing prominently labeled portfolio link")
     if not any(url.startswith("https://www.linkedin.com/") for url in targets):
         errors.append("Missing LinkedIn link")
     if not any(url.startswith("mailto:") for url in targets):
