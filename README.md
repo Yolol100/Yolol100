@@ -6,7 +6,7 @@ I build and improve WordPress websites, WooCommerce stores and custom plugins. M
 
 **WordPress Developer at Webactueel** · Open to fully remote WordPress roles, contract work and selected freelance projects.
 
-[Website & design portfolio](https://andrewbaeten.nl/category/cases) · [LinkedIn](https://www.linkedin.com/in/andrew-baeten-305a1478/) · [Email](mailto:info@andrewbaeten.nl)
+[Website & design portfolio](https://andrewbaeten.nl/#cases) · [LinkedIn](https://www.linkedin.com/in/andrew-baeten-305a1478/) · [Email](mailto:info@andrewbaeten.nl)
 
 ## Start here
 
@@ -14,7 +14,19 @@ I build and improve WordPress websites, WooCommerce stores and custom plugins. M
 - **Recruiting for a WordPress role?** Browse the selected projects below for practical WordPress, WooCommerce, integration and QA examples.
 - **Reviewing my code?** Each project links to its own documentation, implementation and available checks.
 
-## Selected work
+## Website & design cases
+
+A few client-facing examples alongside the code projects below:
+
+| Case | Focus |
+| --- | --- |
+| [Casareno](https://andrewbaeten.nl/casareno/) | Business website: clear communication, structure and manageable content |
+| [Byderma](https://andrewbaeten.nl/byderma/) | WooCommerce webshop: clear product and service information with an enquiry-focused experience |
+| [ACF Page Text Manager](https://andrewbaeten.nl/acf-page-text-manager/) | WordPress plugin: structured content management and editing |
+
+[See more website work](https://andrewbaeten.nl/category/cases/).
+
+## Selected engineering work
 
 | Project | What it demonstrates |
 | --- | --- |
