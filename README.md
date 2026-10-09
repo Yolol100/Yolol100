@@ -34,15 +34,15 @@ A few client-facing examples alongside the code projects below:
 | [Content Sync Manager](https://github.com/Yolol100/Content-Sync-Manager) | Structured WordPress/WooCommerce import, validation and recovery workflows |
 | [SooCool for WooCommerce](https://github.com/Yolol100/soocool-for-woocommerce) | WooCommerce API integration, webhooks, order processing and HPOS-aware workflows |
 | [UltraCache Pro](https://github.com/Yolol100/Ultracache-pro) | WordPress caching, frontend performance and WooCommerce-aware safeguards |
-| [Designchecker](https://github.com/Yolol100/Designchecker) | Browser QA, accessibility checks, Lighthouse and visual-regression tooling |
 | [AI Patch Runner](https://github.com/Yolol100/Patchrunner) | Controlled WordPress plugin changes, previews, backups and rollback |
+| [Dienstenoverzicht](https://github.com/Yolol100/Dienstenoverzicht) | WordPress service directory, custom content structures, filtering and CSV workflows |
 
 **For visual results**, start with the [website portfolio](https://andrewbaeten.nl/category/cases). The GitHub projects above primarily show implementation and engineering decisions; they are not presented as client case studies or production-performance guarantees.
 
 ## More projects by area
 
 **WordPress & ecommerce**
-[WooCommerce Egaline Calculator](https://github.com/Yolol100/Woocommerce-egaline-calculator) · [Dienstenoverzicht](https://github.com/Yolol100/Dienstenoverzicht) · [Pontifex](https://github.com/Yolol100/Pontifex) · [WordPress Connector](https://github.com/Yolol100/wordpressconnector)
+[WooCommerce Egaline Calculator](https://github.com/Yolol100/Woocommerce-egaline-calculator) · [Pontifex](https://github.com/Yolol100/Pontifex) · [WordPress Connector](https://github.com/Yolol100/wordpressconnector)
 
 **Website quality & SEO**
 [SEO Checker](https://github.com/Yolol100/seochecker) · [Image Usage Scanner](https://github.com/Yolol100/scan-duplicate-images) · [Designchecker](https://github.com/Yolol100/Designchecker)
