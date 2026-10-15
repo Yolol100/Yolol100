@@ -6,7 +6,7 @@ I build and improve WordPress websites, WooCommerce stores and custom plugins. M
 
 **WordPress Developer at Webactueel** · Open to fully remote WordPress roles, contract work and selected freelance projects.
 
-[Website & design portfolio](https://andrewbaeten.nl/#cases) · [LinkedIn](https://www.linkedin.com/in/andrew-baeten-305a1478/) · [Email](mailto:info@andrewbaeten.nl)
+[Website & design portfolio](https://andrewbaeten.nl/category/cases/) · [LinkedIn](https://www.linkedin.com/in/andrew-baeten-305a1478/) · [Email](mailto:info@andrewbaeten.nl)
 
 ## Start here
 
@@ -28,24 +28,26 @@ A few client-facing examples alongside the code projects below:
 
 ## Selected engineering work
 
-| Project | What it demonstrates |
-| --- | --- |
-| [ACF Text Manager](https://github.com/Yolol100/ACF-Text-Manager) | ACF-based WordPress content tooling, metadata and guarded bulk updates |
-| [Content Sync Manager](https://github.com/Yolol100/Content-Sync-Manager) | Structured WordPress/WooCommerce import, validation and recovery workflows |
-| [SooCool for WooCommerce](https://github.com/Yolol100/soocool-for-woocommerce) | WooCommerce API integration, webhooks, order processing and HPOS-aware workflows |
-| [UltraCache Pro](https://github.com/Yolol100/Ultracache-pro) | WordPress caching, frontend performance and WooCommerce-aware safeguards |
-| [AI Patch Runner](https://github.com/Yolol100/Patchrunner) | Controlled WordPress plugin changes, previews, backups and rollback |
-| [Dienstenoverzicht](https://github.com/Yolol100/Dienstenoverzicht) | WordPress service directory, custom content structures, filtering and CSV workflows |
+Six projects covering WordPress development, ecommerce, block themes, quality assurance and SEO. Each links to implementation details and inspectable verification steps.
+
+| Project | Problem and engineering work | Where to inspect |
+| --- | --- | --- |
+| [ACF Page Text Manager](https://github.com/Yolol100/ACF-Text-Manager) | Review and edit content scattered across ACF, SEO metadata and media fields; validate bulk CSV/XLSX changes before writing | [Plugin workflow and checks](https://github.com/Yolol100/ACF-Text-Manager#verification) |
+| [Content Sync Manager](https://github.com/Yolol100/Content-Sync-Manager) | Import and update structured WordPress content and media with previews, validation and recovery paths | [Technical review](https://github.com/Yolol100/Content-Sync-Manager#quick-technical-review) |
+| [SooCool for WooCommerce](https://github.com/Yolol100/soocool-for-woocommerce) | Connect WooCommerce orders to a logistics API using background processing, verified webhooks and replay safeguards | [Integration and tests](https://github.com/Yolol100/soocool-for-woocommerce#technical-review) |
+| [Webactueel Block Starter](https://github.com/Yolol100/theme) | Build a minimal native WordPress block theme with a reproducible ZIP and isolated WordPress/WooCommerce smoke tests | [QA and staging limits](https://github.com/Yolol100/theme/blob/main/docs/QA.md) |
+| [Designchecker](https://github.com/Yolol100/Designchecker) | Make website QA repeatable with Playwright, accessibility signals, performance measurements and visual regression | [Technical review](https://github.com/Yolol100/Designchecker#quick-technical-review) |
+| [SEO Checker](https://github.com/Yolol100/seochecker) | Produce bounded, reproducible technical SEO observations and compare compatible audit evidence | [Scope and tests](https://github.com/Yolol100/seochecker#tests) |
 
 **For visual results**, start with the [website portfolio](https://andrewbaeten.nl/category/cases). The GitHub projects above primarily show implementation and engineering decisions; they are not presented as client case studies or production-performance guarantees.
 
 ## More projects by area
 
-**WordPress & ecommerce**
-[WooCommerce Egaline Calculator](https://github.com/Yolol100/Woocommerce-egaline-calculator) · [Pontifex](https://github.com/Yolol100/Pontifex) · [WordPress Connector](https://github.com/Yolol100/wordpressconnector)
+**WordPress, performance & ecommerce**
+[UltraCache Pro](https://github.com/Yolol100/Ultracache-pro) · [AI Patch Runner](https://github.com/Yolol100/Patchrunner) · [Dienstenoverzicht](https://github.com/Yolol100/Dienstenoverzicht) · [WooCommerce Egaline Calculator](https://github.com/Yolol100/Woocommerce-egaline-calculator) · [Pontifex](https://github.com/Yolol100/Pontifex) · [WordPress Connector](https://github.com/Yolol100/wordpressconnector)
 
-**Website quality & SEO**
-[SEO Checker](https://github.com/Yolol100/seochecker) · [Image Usage Scanner](https://github.com/Yolol100/scan-duplicate-images) · [Designchecker](https://github.com/Yolol100/Designchecker)
+**Website quality & media**
+[Image Usage Scanner](https://github.com/Yolol100/scan-duplicate-images) · [Modern Image Manager](https://github.com/Yolol100/Wordpress)
 
 **Automation & supporting tools**
 [GitHub Orchestrator](https://github.com/Yolol100/Orchestrator) · [Leadscanner](https://github.com/Yolol100/Leadscanner) · [Vacature Engine](https://github.com/Yolol100/vacature-engine)
