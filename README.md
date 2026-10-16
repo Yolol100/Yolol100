@@ -28,26 +28,26 @@ A few client-facing examples alongside the code projects below:
 
 ## Selected engineering work
 
-Six projects covering WordPress development, ecommerce, block themes, quality assurance and SEO. Each links to implementation details and inspectable verification steps.
+Six projects covering WordPress development, ecommerce, performance, safe patching and structured service content. Each links to implementation details and inspectable verification steps.
 
 | Project | Problem and engineering work | Where to inspect |
 | --- | --- | --- |
-| [ACF Page Text Manager](https://github.com/Yolol100/ACF-Text-Manager) | Review and edit content scattered across ACF, SEO metadata and media fields; validate bulk CSV/XLSX changes before writing | [Plugin workflow and checks](https://github.com/Yolol100/ACF-Text-Manager#verification) |
-| [Content Sync Manager](https://github.com/Yolol100/Content-Sync-Manager) | Import and update structured WordPress content and media with previews, validation and recovery paths | [Technical review](https://github.com/Yolol100/Content-Sync-Manager#quick-technical-review) |
-| [SooCool for WooCommerce](https://github.com/Yolol100/soocool-for-woocommerce) | Connect WooCommerce orders to a logistics API using background processing, verified webhooks and replay safeguards | [Integration and tests](https://github.com/Yolol100/soocool-for-woocommerce#technical-review) |
-| [Webactueel Block Starter](https://github.com/Yolol100/theme) | Build a minimal native WordPress block theme with a reproducible ZIP and isolated WordPress/WooCommerce smoke tests | [QA and staging limits](https://github.com/Yolol100/theme/blob/main/docs/QA.md) |
-| [Designchecker](https://github.com/Yolol100/Designchecker) | Make website QA repeatable with Playwright, accessibility signals, performance measurements and visual regression | [Technical review](https://github.com/Yolol100/Designchecker#quick-technical-review) |
-| [SEO Checker](https://github.com/Yolol100/seochecker) | Produce bounded, reproducible technical SEO observations and compare compatible audit evidence | [Scope and tests](https://github.com/Yolol100/seochecker#tests) |
+| [ACF Page Text Manager](https://github.com/Yolol100/ACF-Text-Manager) | Review and edit content scattered across ACF, SEO metadata and media fields; validate bulk CSV/XLSX changes before writing | Plugin workflow and checks (README and checks) |
+| [Content Sync Manager](https://github.com/Yolol100/Content-Sync-Manager) | Import and update structured WordPress content and media with previews, validation and recovery paths | Technical review (README and checks) |
+| [SooCool for WooCommerce](https://github.com/Yolol100/soocool-for-woocommerce) | Connect WooCommerce orders to a logistics API using background processing, verified webhooks and replay safeguards | Integration and tests (README and checks) |
+| [UltraCache Pro](https://github.com/Yolol100/Ultracache-pro) | Improve WordPress caching and frontend performance with WooCommerce safeguards | README, implementation and available tests |
+| [AI Patch Runner](https://github.com/Yolol100/Patchrunner) | Guard plugin patching with previews, backups, production gates and rollback | README, implementation and safety checks |
+| [Dienstenoverzicht](https://github.com/Yolol100/Dienstenoverzicht) | Manage searchable WordPress service content with shortcodes, filters and controlled CSV import/export | README, implementation and available tests |
 
 **For visual results**, start with the [website portfolio](https://andrewbaeten.nl/category/cases). The GitHub projects above primarily show implementation and engineering decisions; they are not presented as client case studies or production-performance guarantees.
 
 ## More projects by area
 
 **WordPress, performance & ecommerce**
-[UltraCache Pro](https://github.com/Yolol100/Ultracache-pro) · [AI Patch Runner](https://github.com/Yolol100/Patchrunner) · [Dienstenoverzicht](https://github.com/Yolol100/Dienstenoverzicht) · [WooCommerce Egaline Calculator](https://github.com/Yolol100/Woocommerce-egaline-calculator) · [Pontifex](https://github.com/Yolol100/Pontifex) · [WordPress Connector](https://github.com/Yolol100/wordpressconnector)
+[Webactueel Block Starter](https://github.com/Yolol100/theme) · [WooCommerce Egaline Calculator](https://github.com/Yolol100/Woocommerce-egaline-calculator) · [Pontifex](https://github.com/Yolol100/Pontifex) · [WordPress Connector](https://github.com/Yolol100/wordpressconnector)
 
 **Website quality & media**
-[Image Usage Scanner](https://github.com/Yolol100/scan-duplicate-images) · [Modern Image Manager](https://github.com/Yolol100/Wordpress)
+[Designchecker](https://github.com/Yolol100/Designchecker) · [SEO Checker](https://github.com/Yolol100/seochecker) · [Image Usage Scanner](https://github.com/Yolol100/scan-duplicate-images) · [Modern Image Manager](https://github.com/Yolol100/Wordpress)
 
 **Automation & supporting tools**
 [GitHub Orchestrator](https://github.com/Yolol100/Orchestrator) · [Leadscanner](https://github.com/Yolol100/Leadscanner) · [Vacature Engine](https://github.com/Yolol100/vacature-engine)
