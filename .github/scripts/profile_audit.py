@@ -53,10 +53,12 @@ def audit_profile(readme, config):
     links = LINK_RE.findall(readme)
     targets = [url for _, url in links]
     if not any(
-        "portfolio" in label.lower() and url.startswith("https://andrewbaeten.nl/")
+        "portfolio" in label.lower()
+        and (url == "#selected-engineering-work"
+             or url.rstrip("/") == "https://github.com/Yolol100")
         for label, url in links
     ):
-        errors.append("Missing prominently labeled portfolio link")
+        errors.append("Missing prominent, self-contained GitHub portfolio link")
     if not any(url.startswith("https://www.linkedin.com/") for url in targets):
         errors.append("Missing LinkedIn link")
     if not any(url.startswith("mailto:") for url in targets):
@@ -64,13 +66,13 @@ def audit_profile(readme, config):
 
     cases = section_text(readme, "Website & design cases")
     case_targets = [url for _, url in LINK_RE.findall(cases or "")]
-    actual_cases = [
-        url for url in case_targets
-        if url.startswith("https://andrewbaeten.nl/")
-        and not url.rstrip("/").endswith("/category/cases")
+    case_repos = [
+        url[len("https://github.com/Yolol100/"):].split("/")[0].split("#")[0].split("?")[0]
+        for url in case_targets
+        if url.startswith("https://github.com/Yolol100/")
     ]
-    if len(set(actual_cases)) < 3:
-        errors.append("At least three distinct website or plugin cases are required")
+    if len(set(case_repos)) < 3:
+        errors.append("At least three distinct GitHub-backed design cases are required")
 
     if not isinstance(config, dict) or config.get("owner") != EXPECTED_OWNER:
         errors.append("Invalid central GitHub config owner")
@@ -82,6 +84,9 @@ def audit_profile(readme, config):
     ] if isinstance(repositories, list) else []
     if len(names) != len(set(names)) or not names:
         errors.append("Invalid central repository inventory")
+    for case_repo in case_repos:
+        if case_repo not in names:
+            errors.append(f"Unknown design case repository: {case_repo}")
 
     profile = config.get("profile", {})
     pins = profile.get("desired_pins", []) if isinstance(profile, dict) else []
@@ -127,7 +132,7 @@ def main():
         for error in errors:
             print("FAIL:", error, file=sys.stderr)
         return 1
-    print("PASS: profile sections, contacts, case links, unique GitHub links and central pin order")
+    print("PASS: self-contained portfolio, project cases, contacts, unique links and central pin order")
     return 0
 
 
