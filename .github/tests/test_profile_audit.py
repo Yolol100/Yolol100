@@ -10,11 +10,11 @@ from profile_audit import audit_profile
 
 PINS = [
     "ACF-Text-Manager",
-    "Content-Sync-Manager",
     "soocool-for-woocommerce",
+    "Content-Sync-Manager",
+    "theme",
+    "Designchecker",
     "Ultracache-pro",
-    "Patchrunner",
-    "Dienstenoverzicht",
 ]
 
 
@@ -37,13 +37,13 @@ def sample():
         "| Project | Description |\n| --- | --- |\n"
         + rows
         + "\n\n## More projects by area\n\n"
-        "[Designchecker](https://github.com/Yolol100/Designchecker)\n\n"
+        "[SEO Checker](https://github.com/Yolol100/seochecker)\n\n"
         "## How I work\n\nWith tests.\n\n"
         "## Background & contact\n\nWordPress developer.\n"
     )
     config = {
         "owner": "Yolol100",
-        "repositories": [{"name": x} for x in PINS + ["Designchecker"]],
+        "repositories": [{"name": x} for x in PINS + ["seochecker"]],
         "profile": {"desired_pins": list(PINS)},
     }
     return readme, config
@@ -105,6 +105,24 @@ class ProfileAuditTests(unittest.TestCase):
     def test_duplicate_repository_link(self):
         a, c = sample()
         self.assert_rejected(a + "\n[Again](https://github.com/Yolol100/Designchecker)\n", c)
+
+    def test_distinct_verification_deep_link_is_allowed(self):
+        a, c = sample()
+        deep_link = "[Verification](https://github.com/Yolol100/ACF-Text-Manager#verification)"
+        a = a.replace("Example project", deep_link, 1)
+        self.assertEqual(audit_profile(a, c), [])
+
+    def test_repeated_deep_link_is_rejected(self):
+        a, c = sample()
+        deep_link = "[Verification](https://github.com/Yolol100/ACF-Text-Manager#verification)"
+        a = a.replace("Example project", deep_link, 1)
+        self.assert_rejected(a + "\\n" + deep_link + "\\n", c)
+
+    def test_duplicate_root_link_with_trailing_slash_is_rejected(self):
+        a, c = sample()
+        self.assert_rejected(
+            a + "\\n[Repeat](https://github.com/Yolol100/ACF-Text-Manager/)\\n", c
+        )
 
     def test_unknown_repository(self):
         a, c = sample()
