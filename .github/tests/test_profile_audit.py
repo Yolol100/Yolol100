@@ -116,12 +116,12 @@ class ProfileAuditTests(unittest.TestCase):
         a, c = sample()
         deep_link = "[Verification](https://github.com/Yolol100/ACF-Text-Manager#verification)"
         a = a.replace("Example project", deep_link, 1)
-        self.assert_rejected(a + "\\n" + deep_link + "\\n", c)
+        self.assert_rejected(a + "\n" + deep_link + "\n", c)
 
     def test_duplicate_root_link_with_trailing_slash_is_rejected(self):
         a, c = sample()
         self.assert_rejected(
-            a + "\\n[Repeat](https://github.com/Yolol100/ACF-Text-Manager/)\\n", c
+            a + "\n[Repeat](https://github.com/Yolol100/ACF-Text-Manager/)\n", c
         )
 
     def test_unknown_repository(self):
