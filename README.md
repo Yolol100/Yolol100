@@ -8,17 +8,17 @@ I design and build usable websites, WooCommerce stores and custom WordPress tool
 
 WordPress Developer at **Webactueel** · Open to fully remote WordPress roles and selected contract/freelance projects.
 
-**[See website & design work](https://andrewbaeten.nl/category/cases/)** · **[Explore my code below](#selected-engineering-projects)** · **[Email me](mailto:info@andrewbaeten.nl)** · [LinkedIn](https://www.linkedin.com/in/andrew-baeten-305a1478/)
+**[See website & design work](https://andrewbaeten.nl/category/cases/)** · **[Explore my code below](#selected-engineering-work)** · **[Email me](mailto:info@andrewbaeten.nl)** · [LinkedIn](https://www.linkedin.com/in/andrew-baeten-305a1478/)
 
 ## Start here
 
 | If you're… | Best starting point |
 | --- | --- |
-| Hiring for a WordPress role | [Six selected projects](#selected-engineering-projects) with code and checks you can inspect |
-| Looking for a web designer or developer | [Website & design cases](#website--design-work) and [contact](mailto:info@andrewbaeten.nl) |
+| Hiring for a WordPress role | [Six selected projects](#selected-engineering-work) with code and checks you can inspect |
+| Looking for a web designer or developer | [Website & design cases](#website--design-cases) and [contact](mailto:info@andrewbaeten.nl) |
 | Reviewing technical quality | Follow each project's **verification** link, source code and documented limitations |
 
-## Website & design work
+## Website & design cases
 
 These examples show the client-facing side of my work. The GitHub repositories below show the engineering behind related kinds of problems.
 
@@ -30,7 +30,7 @@ These examples show the client-facing side of my work. The GitHub repositories b
 
 [Browse the full portfolio](https://andrewbaeten.nl/category/cases/).
 
-## Selected engineering projects
+## Selected engineering work
 
 A deliberately small cross-section of WordPress, ecommerce, modern theming, site quality and performance. These are **inspectable technical examples**, not unsupported claims about production results.
 
@@ -43,9 +43,11 @@ A deliberately small cross-section of WordPress, ecommerce, modern theming, site
 | [Designchecker](https://github.com/Yolol100/Designchecker) | Repeatable, read-only browser, accessibility, performance and visual QA | [Code-review route](https://github.com/Yolol100/Designchecker#quick-code-review-route) |
 | [UltraCache Pro](https://github.com/Yolol100/Ultracache-pro) | WordPress performance tooling with explicit WooCommerce safety boundaries | [Compatibility checks](https://github.com/Yolol100/Ultracache-pro#verification) |
 
+## More projects by area
+
 For more specialized engineering work, see [SEO Checker](https://github.com/Yolol100/seochecker) (technical SEO), [WordPress Connector](https://github.com/Yolol100/wordpressconnector) (controlled WordPress automation), and [Orchestrator](https://github.com/Yolol100/Orchestrator) (auditable multi-repository workflows).
 
-## How I approach work
+## How I work
 
 - **Start with users:** structure, usability, accessibility and sensible content editing.
 - **Build for maintenance:** clear boundaries, documented choices and controlled data changes.
