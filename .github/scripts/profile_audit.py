@@ -98,16 +98,19 @@ def audit_profile(readme, config):
     if len(selected_repos) != 6:
         errors.append("Selected engineering work must contain six repository rows")
 
-    seen_repos = set()
+    # A project may have one overview link and a distinct deep link to
+    # test evidence. Repeating the exact same URL still adds no value.
+    seen_urls = set()
     for _, url in links:
         if url.startswith("https://github.com/Yolol100/"):
             repo = url[len("https://github.com/Yolol100/"):].split("/")[0]
             repo = repo.split("?")[0].split("#")[0]
             if repo not in names:
                 errors.append(f"Unknown portfolio repository link: {repo}")
-            if repo in seen_repos:
-                errors.append(f"Repeated portfolio repository link: {repo}")
-            seen_repos.add(repo)
+            canonical_url = url.rstrip("/")
+            if canonical_url in seen_urls:
+                errors.append(f"Repeated GitHub link: {canonical_url}")
+            seen_urls.add(canonical_url)
 
     if KEY_RE.search(readme):
         errors.append("Possible secret content in the public profile")
@@ -124,7 +127,7 @@ def main():
         for error in errors:
             print("FAIL:", error, file=sys.stderr)
         return 1
-    print("PASS: profile sections, contacts, case links, unique repository links and central pin order")
+    print("PASS: profile sections, contacts, case links, unique GitHub links and central pin order")
     return 0
 
 
