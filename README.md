@@ -8,7 +8,7 @@ I design and build usable websites, WooCommerce stores and custom WordPress tool
 
 WordPress Developer at **Webactueel** · Open to fully remote WordPress roles and selected contract/freelance projects.
 
-**[See website & design work](https://andrewbaeten.nl/category/cases/)** · **[Explore my code below](#selected-engineering-work)** · **[Email me](mailto:info@andrewbaeten.nl)** · [LinkedIn](https://www.linkedin.com/in/andrew-baeten-305a1478/)
+**[Portfolio & code](#selected-engineering-work)** · **[Explore my code below](#selected-engineering-work)** · **[Email me](mailto:info@andrewbaeten.nl)** · [LinkedIn](https://www.linkedin.com/in/andrew-baeten-305a1478/)
 
 ## Start here
 
@@ -20,15 +20,15 @@ WordPress Developer at **Webactueel** · Open to fully remote WordPress roles an
 
 ## Website & design cases
 
-These examples show the client-facing side of my work. The GitHub repositories below show the engineering behind related kinds of problems.
+These three source-backed examples highlight layout, visual quality and the WordPress editing experience. They are not claims of live client-site results.
 
 | Example | Focus |
 | --- | --- |
-| [Casareno](https://andrewbaeten.nl/casareno/) | Business website, navigation and structured content |
-| [Byderma](https://andrewbaeten.nl/byderma/) | WooCommerce shop and enquiry-focused content |
-| [ACF Page Text Manager](https://andrewbaeten.nl/acf-page-text-manager/) | Usable WordPress administration for structured content |
+| [Gutenberg block theme](https://github.com/Yolol100/theme/tree/main/theme/webactueel-starter) | Native WordPress templates, design tokens and responsive page structure |
+| [Designchecker](https://github.com/Yolol100/Designchecker/tree/main/src) | Browser-based visual review, accessibility evidence and responsive QA |
+| [ACF content editor](https://github.com/Yolol100/ACF-Text-Manager#workflow-at-a-glance) | Structured administration and guarded bulk editing workflows |
 
-[Browse the full portfolio](https://andrewbaeten.nl/category/cases/).
+[Browse all public GitHub projects](https://github.com/Yolol100?tab=repositories).
 
 ## Selected engineering work
 
@@ -59,4 +59,4 @@ Automated tests are evidence for the scenarios they run. They do **not** by them
 
 My background spans web design, front-end work, WordPress development and collaboration with clients and stakeholders. I currently work at **Webactueel**.
 
-If you're recruiting, planning a website or looking for technical help: **[view the portfolio](https://andrewbaeten.nl/category/cases/)**, [connect on LinkedIn](https://www.linkedin.com/in/andrew-baeten-305a1478/) or **[email me](mailto:info@andrewbaeten.nl)**.
+If you're recruiting, planning a website or looking for technical help: **[review the selected projects](#selected-engineering-work)**, [connect on LinkedIn](https://www.linkedin.com/in/andrew-baeten-305a1478/) or **[email me](mailto:info@andrewbaeten.nl)**.
