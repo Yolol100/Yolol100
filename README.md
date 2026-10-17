@@ -1,70 +1,60 @@
 # Andrew Baeten — WordPress Developer & Web Designer
 
-**WordPress · WooCommerce · PHP · Elementor · ACF · UX · Performance · QA**
+**WordPress · WooCommerce · PHP · Gutenberg · Elementor · ACF · UX · Accessibility · QA**
 
-I build and improve WordPress websites, WooCommerce stores and custom plugins. My focus is clear user experiences, maintainable code, integrations, performance and reliable delivery.
+I design and build usable websites, WooCommerce stores and custom WordPress tools. My work connects clear interfaces with maintainable code, practical integrations and careful quality checks.
 
-**WordPress Developer at Webactueel** · Open to fully remote WordPress roles, contract work and selected freelance projects.
+**10 years of WordPress experience · 90 delivered projects · 120 websites and webshops under management**
 
-[Website & design portfolio](https://andrewbaeten.nl/category/cases/) · [LinkedIn](https://www.linkedin.com/in/andrew-baeten-305a1478/) · [Email](mailto:info@andrewbaeten.nl)
+WordPress Developer at **Webactueel** · Open to fully remote WordPress roles and selected contract/freelance projects.
+
+**[See website & design work](https://andrewbaeten.nl/category/cases/)** · **[Explore my code below](#selected-engineering-projects)** · **[Email me](mailto:info@andrewbaeten.nl)** · [LinkedIn](https://www.linkedin.com/in/andrew-baeten-305a1478/)
 
 ## Start here
 
-- **Hiring a developer?** See my [website and design cases](https://andrewbaeten.nl/category/cases) for client-facing work, or [get in touch](mailto:info@andrewbaeten.nl).
-- **Recruiting for a WordPress role?** Browse the selected projects below for practical WordPress, WooCommerce, integration and QA examples.
-- **Reviewing my code?** Each project links to its own documentation, implementation and available checks.
-
-## Website & design cases
-
-A few client-facing examples alongside the code projects below:
-
-| Case | Focus |
+| If you're… | Best starting point |
 | --- | --- |
-| [Casareno](https://andrewbaeten.nl/casareno/) | Business website: clear communication, structure and manageable content |
-| [Byderma](https://andrewbaeten.nl/byderma/) | WooCommerce webshop: clear product and service information with an enquiry-focused experience |
-| [ACF Page Text Manager](https://andrewbaeten.nl/acf-page-text-manager/) | WordPress plugin: structured content management and editing |
+| Hiring for a WordPress role | [Six selected projects](#selected-engineering-projects) with code and checks you can inspect |
+| Looking for a web designer or developer | [Website & design cases](#website--design-work) and [contact](mailto:info@andrewbaeten.nl) |
+| Reviewing technical quality | Follow each project's **verification** link, source code and documented limitations |
 
-[See more website work](https://andrewbaeten.nl/category/cases/).
+## Website & design work
 
-## Selected engineering work
+These examples show the client-facing side of my work. The GitHub repositories below show the engineering behind related kinds of problems.
 
-Six projects covering WordPress development, ecommerce, block themes, quality assurance and SEO. Each links to implementation details and inspectable verification steps.
+| Example | Focus |
+| --- | --- |
+| [Casareno](https://andrewbaeten.nl/casareno/) | Business website, navigation and structured content |
+| [Byderma](https://andrewbaeten.nl/byderma/) | WooCommerce shop and enquiry-focused content |
+| [ACF Page Text Manager](https://andrewbaeten.nl/acf-page-text-manager/) | Usable WordPress administration for structured content |
 
-| Project | Problem and engineering work | Where to inspect |
+[Browse the full portfolio](https://andrewbaeten.nl/category/cases/).
+
+## Selected engineering projects
+
+A deliberately small cross-section of WordPress, ecommerce, modern theming, site quality and performance. These are **inspectable technical examples**, not unsupported claims about production results.
+
+| Project | Problem addressed and my work | Inspect the evidence |
 | --- | --- | --- |
-| [ACF Page Text Manager](https://github.com/Yolol100/ACF-Text-Manager) | Review and edit content scattered across ACF, SEO metadata and media fields; validate bulk CSV/XLSX changes before writing | [Plugin workflow and checks](https://github.com/Yolol100/ACF-Text-Manager#verification) |
-| [Content Sync Manager](https://github.com/Yolol100/Content-Sync-Manager) | Import and update structured WordPress content and media with previews, validation and recovery paths | [Technical review](https://github.com/Yolol100/Content-Sync-Manager#quick-technical-review) |
-| [SooCool for WooCommerce](https://github.com/Yolol100/soocool-for-woocommerce) | Connect WooCommerce orders to a logistics API using background processing, verified webhooks and replay safeguards | [Integration and tests](https://github.com/Yolol100/soocool-for-woocommerce#technical-review) |
-| [Webactueel Block Starter](https://github.com/Yolol100/theme) | Build a minimal native WordPress block theme with a reproducible ZIP and isolated WordPress/WooCommerce smoke tests | [QA and staging limits](https://github.com/Yolol100/theme/blob/main/docs/QA.md) |
-| [Designchecker](https://github.com/Yolol100/Designchecker) | Make website QA repeatable with Playwright, accessibility signals, performance measurements and visual regression | [Technical review](https://github.com/Yolol100/Designchecker#quick-technical-review) |
-| [SEO Checker](https://github.com/Yolol100/seochecker) | Produce bounded, reproducible technical SEO observations and compare compatible audit evidence | [Scope and tests](https://github.com/Yolol100/seochecker#tests) |
+| [ACF Page Text Manager](https://github.com/Yolol100/ACF-Text-Manager) | Editing scattered ACF, SEO and media content; guarded CSV/XLSX bulk changes | [WordPress runtime verification](https://github.com/Yolol100/ACF-Text-Manager#verification) |
+| [SooCool for WooCommerce](https://github.com/Yolol100/soocool-for-woocommerce) | Reliable order-to-transport integration with webhooks, queueing and replay safeguards | [Integration design & tests](https://github.com/Yolol100/soocool-for-woocommerce#technical-review) |
+| [Content Sync Manager](https://github.com/Yolol100/Content-Sync-Manager) | Reviewing, importing and recovering WordPress/ACF/WooCommerce content and media | [Technical review & checks](https://github.com/Yolol100/Content-Sync-Manager#quick-technical-review) |
+| [WordPress Block Theme Starter](https://github.com/Yolol100/theme) | A native Gutenberg starting point without a page-builder dependency | [QA scope and staging limits](https://github.com/Yolol100/theme/blob/main/docs/QA.md) |
+| [Designchecker](https://github.com/Yolol100/Designchecker) | Repeatable, read-only browser, accessibility, performance and visual QA | [Code-review route](https://github.com/Yolol100/Designchecker#quick-code-review-route) |
+| [UltraCache Pro](https://github.com/Yolol100/Ultracache-pro) | WordPress performance tooling with explicit WooCommerce safety boundaries | [Compatibility checks](https://github.com/Yolol100/Ultracache-pro#verification) |
 
-**For visual results**, start with the [website portfolio](https://andrewbaeten.nl/category/cases). The GitHub projects above primarily show implementation and engineering decisions; they are not presented as client case studies or production-performance guarantees.
+For more specialized engineering work, see [SEO Checker](https://github.com/Yolol100/seochecker) (technical SEO), [WordPress Connector](https://github.com/Yolol100/wordpressconnector) (controlled WordPress automation), and [Orchestrator](https://github.com/Yolol100/Orchestrator) (auditable multi-repository workflows).
 
-## More projects by area
+## How I approach work
 
-**WordPress, performance & ecommerce**
-[UltraCache Pro](https://github.com/Yolol100/Ultracache-pro) · [AI Patch Runner](https://github.com/Yolol100/Patchrunner) · [Dienstenoverzicht](https://github.com/Yolol100/Dienstenoverzicht) · [WooCommerce Egaline Calculator](https://github.com/Yolol100/Woocommerce-egaline-calculator) · [Pontifex](https://github.com/Yolol100/Pontifex) · [WordPress Connector](https://github.com/Yolol100/wordpressconnector)
+- **Start with users:** structure, usability, accessibility and sensible content editing.
+- **Build for maintenance:** clear boundaries, documented choices and controlled data changes.
+- **Verify what matters:** automated checks where appropriate, human review for visual and production decisions, and rollback planning for risky updates.
 
-**Website quality & media**
-[Image Usage Scanner](https://github.com/Yolol100/scan-duplicate-images) · [Modern Image Manager](https://github.com/Yolol100/Wordpress)
-
-**Automation & supporting tools**
-[GitHub Orchestrator](https://github.com/Yolol100/Orchestrator) · [Leadscanner](https://github.com/Yolol100/Leadscanner) · [Vacature Engine](https://github.com/Yolol100/vacature-engine)
-
-**Other engineering interests**
-[KeystoneLens](https://github.com/Yolol100/KeystoneLens) — WoW add-on development, compatibility and testable packaging.
-
-## How I work
-
-- Design around real user and business needs.
-- Keep code and integrations understandable, maintainable and reviewable.
-- Verify changes with relevant automated checks and manual QA.
-- Prefer conservative rollouts, clear safeguards and rollback for higher-risk changes.
-- Never treat a green CI check as proof of every production scenario.
+Automated tests are evidence for the scenarios they run. They do **not** by themselves prove every live-site, accessibility, payment or performance outcome.
 
 ## Background & contact
 
-My background combines web design, front-end development and WordPress development. I currently work at **Webactueel**; previous workplaces include Wube, Easytheorie, Kamernet, Blueprint Sound Academy, Bergo and ACI Computers.
+My background spans web design, front-end work, WordPress development and collaboration with clients and stakeholders. I currently work at **Webactueel**.
 
-For a WordPress role, website project or technical collaboration: [portfolio](https://andrewbaeten.nl/category/cases) · [LinkedIn](https://www.linkedin.com/in/andrew-baeten-305a1478/) · [email](mailto:info@andrewbaeten.nl).
+If you're recruiting, planning a website or looking for technical help: **[view the portfolio](https://andrewbaeten.nl/category/cases/)**, [connect on LinkedIn](https://www.linkedin.com/in/andrew-baeten-305a1478/) or **[email me](mailto:info@andrewbaeten.nl)**.
