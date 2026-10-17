@@ -36,12 +36,12 @@ A deliberately small cross-section of WordPress, ecommerce, modern theming, site
 
 | Project | Problem addressed and my work | Inspect the evidence |
 | --- | --- | --- |
-| [ACF Page Text Manager](https://github.com/Yolol100/ACF-Text-Manager) | Editing scattered ACF, SEO and media content; guarded CSV/XLSX bulk changes | README: **Verification** |
-| [SooCool for WooCommerce](https://github.com/Yolol100/soocool-for-woocommerce) | Reliable order-to-transport integration with webhooks, queueing and replay safeguards | README: **Technical review** |
-| [Content Sync Manager](https://github.com/Yolol100/Content-Sync-Manager) | Reviewing, importing and recovering WordPress/ACF/WooCommerce content and media | README: **Quick technical review** |
-| [WordPress Block Theme Starter](https://github.com/Yolol100/theme) | A native Gutenberg starting point without a page-builder dependency | README: **QA and staging acceptance** |
-| [Designchecker](https://github.com/Yolol100/Designchecker) | Repeatable, read-only browser, accessibility, performance and visual QA | README: **Quick code-review route** |
-| [UltraCache Pro](https://github.com/Yolol100/Ultracache-pro) | WordPress performance tooling with explicit WooCommerce safety boundaries | README: **Verification** |
+| [ACF Page Text Manager](https://github.com/Yolol100/ACF-Text-Manager) | Editing scattered ACF, SEO and media content; guarded CSV/XLSX bulk changes | [Runtime checks](https://github.com/Yolol100/ACF-Text-Manager#verification) |
+| [SooCool for WooCommerce](https://github.com/Yolol100/soocool-for-woocommerce) | Reliable order-to-transport integration with webhooks, queueing and replay safeguards | [Tests & technical review](https://github.com/Yolol100/soocool-for-woocommerce#technical-review) |
+| [Content Sync Manager](https://github.com/Yolol100/Content-Sync-Manager) | Reviewing, importing and recovering WordPress/ACF/WooCommerce content and media | [Quality and runtime checks](https://github.com/Yolol100/Content-Sync-Manager#quick-technical-review) |
+| [WordPress Block Theme Starter](https://github.com/Yolol100/theme) | A native Gutenberg starting point without a page-builder dependency | [QA scope](https://github.com/Yolol100/theme/blob/main/docs/QA.md) |
+| [Designchecker](https://github.com/Yolol100/Designchecker) | Repeatable, read-only browser, accessibility, performance and visual QA | [Code & regression tests](https://github.com/Yolol100/Designchecker#quick-code-review-route) |
+| [UltraCache Pro](https://github.com/Yolol100/Ultracache-pro) | WordPress performance tooling with explicit WooCommerce safety boundaries | [PHP compatibility](https://github.com/Yolol100/Ultracache-pro#verification) |
 
 ## More projects by area
 
