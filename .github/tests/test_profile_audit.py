@@ -25,14 +25,14 @@ def sample():
     )
     readme = (
         "# WordPress Developer & Web Designer\n\n"
-        "[Portfolio](https://andrewbaeten.nl/#cases) · "
+        "[Portfolio](#selected-engineering-work) · "
         "[LinkedIn](https://www.linkedin.com/in/example/) · "
         "[Email](mailto:info@example.com)\n\n"
         "## Start here\n\nStart with the portfolio.\n\n"
         "## Website & design cases\n\n"
-        "[Case 1](https://andrewbaeten.nl/casareno/) · "
-        "[Case 2](https://andrewbaeten.nl/byderma/) · "
-        "[Case 3](https://andrewbaeten.nl/acf-page-text-manager/)\n\n"
+        "[Block theme](https://github.com/Yolol100/theme/tree/main/theme/webactueel-starter) · "
+        "[Design QA](https://github.com/Yolol100/Designchecker/tree/main/src) · "
+        "[ACF editor](https://github.com/Yolol100/ACF-Text-Manager#workflow-at-a-glance)\n\n"
         "## Selected engineering work\n\n"
         "| Project | Description |\n| --- | --- |\n"
         + rows
@@ -64,7 +64,7 @@ class ProfileAuditTests(unittest.TestCase):
 
     def test_missing_portfolio(self):
         a, c = sample()
-        self.assert_rejected(a.replace("https://andrewbaeten.nl/#cases", "https://example.com"), c)
+        self.assert_rejected(a.replace("[Portfolio](#selected-engineering-work)", "[Portfolio](https://example.com)"), c)
 
     def test_missing_linkedin(self):
         a, c = sample()
@@ -76,11 +76,21 @@ class ProfileAuditTests(unittest.TestCase):
 
     def test_missing_case(self):
         a, c = sample()
-        self.assert_rejected(a.replace("[Case 3](https://andrewbaeten.nl/acf-page-text-manager/)", ""), c)
+        self.assert_rejected(a.replace("[ACF editor](https://github.com/Yolol100/ACF-Text-Manager#workflow-at-a-glance)", ""), c)
 
     def test_duplicate_case_does_not_count_as_three(self):
         a, c = sample()
-        self.assert_rejected(a.replace("https://andrewbaeten.nl/byderma/", "https://andrewbaeten.nl/casareno/"), c)
+        self.assert_rejected(a.replace("https://github.com/Yolol100/Designchecker/tree/main/src", "https://github.com/Yolol100/theme/tree/main/theme/webactueel-starter"), c)
+
+    def test_offsite_cases_do_not_count(self):
+        a, c = sample()
+        a = a.replace("https://github.com/Yolol100/Designchecker/tree/main/src", "https://example.com/case")
+        self.assert_rejected(a, c)
+
+    def test_unknown_case_repository_is_rejected(self):
+        a, c = sample()
+        a = a.replace("https://github.com/Yolol100/Designchecker/tree/main/src", "https://github.com/Yolol100/unknown-showcase/src")
+        self.assert_rejected(a, c)
 
     def test_missing_section(self):
         a, c = sample()
