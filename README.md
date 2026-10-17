@@ -1,62 +1,67 @@
-# Andrew Baeten — WordPress Developer & Web Designer
+# Andrew Baeten — WordPress & WooCommerce Developer
 
-**WordPress · WooCommerce · PHP · Gutenberg · Elementor · ACF · UX · Accessibility · QA**
+**Web Design · Custom PHP · Elementor & Gutenberg · UX · Performance · Website QA**
 
-I design and build usable websites, WooCommerce stores and custom WordPress tools. My work connects clear interfaces with maintainable code, practical integrations and careful quality checks.
+I build WordPress websites and WooCommerce stores that look clear, work across devices and remain easy to manage. I also develop custom plugins, integrations and repeatable quality checks for teams maintaining multiple sites.
 
-**10 years of WordPress experience · 90 delivered projects · 120 websites and webshops under management**
+**10+ years in WordPress · 90+ delivered projects · 120+ websites and webshops under management**
 
-WordPress Developer at **Webactueel** · Open to fully remote WordPress roles and selected contract/freelance projects.
+Based in the Netherlands · WordPress Developer at **Webactueel** · Open to **fully remote WordPress roles** and selected freelance/contract projects.
 
-**[Portfolio & code](#selected-engineering-work)** · **[Explore my code below](#selected-engineering-work)** · **[Email me](mailto:info@andrewbaeten.nl)** · [LinkedIn](https://www.linkedin.com/in/andrew-baeten-305a1478/)
+**[View real website case studies](https://andrewbaeten.nl/category/cases/)** · **[GitHub portfolio](#selected-engineering-work)** · **[Email me](mailto:info@andrewbaeten.nl)** · [LinkedIn](https://www.linkedin.com/in/andrew-baeten-305a1478/)
 
 ## Start here
 
-| If you're… | Best starting point |
-| --- | --- |
-| Hiring for a WordPress role | [Six selected projects](#selected-engineering-work) with code and checks you can inspect |
-| Looking for a web designer or developer | [Website & design cases](#website--design-cases) and [contact](mailto:info@andrewbaeten.nl) |
-| Reviewing technical quality | Follow each project's **verification** link, source code and documented limitations |
+- **Need a WordPress developer?** Start with the [real website and webshop case studies](https://andrewbaeten.nl/category/cases/).
+- **Reviewing my engineering skills?** Browse the [six selected code projects](#selected-engineering-work), their tests and documented limitations.
+- **Want to discuss work?** [Email me](mailto:info@andrewbaeten.nl) or use [LinkedIn](https://www.linkedin.com/in/andrew-baeten-305a1478/).
 
 ## Website & design cases
 
-These three source-backed examples highlight layout, visual quality and the WordPress editing experience. They are not claims of live client-site results.
+Real websites are the fastest way to evaluate my design, responsive layout and client-facing work. Each link opens a case study describing the challenge, my role and the solution. The screenshots are from my public portfolio.
 
-| Example | Focus |
-| --- | --- |
-| [Gutenberg block theme](https://github.com/Yolol100/theme/tree/main/theme/webactueel-starter) | Native WordPress templates, design tokens and responsive page structure |
-| [Designchecker](https://github.com/Yolol100/Designchecker/tree/main/src) | Browser-based visual review, accessibility evidence and responsive QA |
-| [ACF content editor](https://github.com/Yolol100/ACF-Text-Manager#workflow-at-a-glance) | Structured administration and guarded bulk editing workflows |
+| WordPress design | WooCommerce | Non-profit UX |
+| :---: | :---: | :---: |
+| [![Spring Architecten website desktop presentation](https://andrewbaeten.nl/wp-content/uploads/2026/05/spring-architecten-homepage-macbook-mockup.png)](https://andrewbaeten.nl/spring-architecten/) | [![RBMB WooCommerce webshop desktop screenshot](https://andrewbaeten.nl/wp-content/uploads/2026/04/rbmb-desktop-homepage-1.png)](https://andrewbaeten.nl/rbmb/) | [![Wehear4u WordPress website desktop screenshot](https://andrewbaeten.nl/wp-content/uploads/2026/04/wehear4u-desktop-homepage-1.png)](https://andrewbaeten.nl/wehear4u/) |
+| **[Spring Architecten](https://andrewbaeten.nl/spring-architecten/)** — project-led architecture portfolio | **[RBMB](https://andrewbaeten.nl/rbmb/)** — product discovery and purchasing journeys | **[Wehear4u](https://andrewbaeten.nl/wehear4u/)** — clear donation and participation routes |
 
-[Browse all public GitHub projects](https://github.com/Yolol100?tab=repositories).
+More examples: **[Website, webshop and plugin case studies](https://andrewbaeten.nl/category/cases/)**, including mobile layouts and project explanations.
+
+*These are portfolio case studies, not proof of conversion increases or performance metrics. Individual cases identify my role and any Webactueel collaboration; code repositories below are separate inspectable engineering examples.*
+
+**Related code-based design examples (not the client websites shown above):** [Gutenberg block theme](https://github.com/Yolol100/theme/tree/main/theme/webactueel-starter) · [Browser and visual QA](https://github.com/Yolol100/Designchecker/tree/main/src) · [WordPress content editor](https://github.com/Yolol100/ACF-Text-Manager#workflow-at-a-glance).
+
+## What I bring to a project
+
+- **Websites people can use:** responsive WordPress builds, clear information structure, accessible interfaces and maintainable content editing.
+- **WooCommerce and custom PHP:** product and order workflows, APIs, webhooks, ACF, Gutenberg, Elementor and custom plugins.
+- **Safer releases:** reproducible tests, GitHub Actions, Playwright, accessibility checks, performance diagnostics and rollback-aware changes.
 
 ## Selected engineering work
 
-A deliberately small cross-section of WordPress, ecommerce, modern theming, site quality and performance. These are **inspectable technical examples**, not unsupported claims about production results.
+Prefer code over screenshots? These six repositories show my approach to WordPress development, integrations, frontend architecture and quality assurance.
 
-| Project | Problem addressed and my work | Inspect the evidence |
+| Project | What it solves, in plain English | Review the implementation |
 | --- | --- | --- |
-| [ACF Page Text Manager](https://github.com/Yolol100/ACF-Text-Manager) | Editing scattered ACF, SEO and media content; guarded CSV/XLSX bulk changes | [Runtime checks](https://github.com/Yolol100/ACF-Text-Manager#verification) |
-| [SooCool for WooCommerce](https://github.com/Yolol100/soocool-for-woocommerce) | Reliable order-to-transport integration with webhooks, queueing and replay safeguards | [Tests & technical review](https://github.com/Yolol100/soocool-for-woocommerce#technical-review) |
-| [Content Sync Manager](https://github.com/Yolol100/Content-Sync-Manager) | Reviewing, importing and recovering WordPress/ACF/WooCommerce content and media | [Quality and runtime checks](https://github.com/Yolol100/Content-Sync-Manager#quick-technical-review) |
-| [WordPress Block Theme Starter](https://github.com/Yolol100/theme) | A native Gutenberg starting point without a page-builder dependency | [QA scope](https://github.com/Yolol100/theme/blob/main/docs/QA.md) |
-| [Designchecker](https://github.com/Yolol100/Designchecker) | Repeatable, read-only browser, accessibility, performance and visual QA | [Code & regression tests](https://github.com/Yolol100/Designchecker#quick-code-review-route) |
-| [UltraCache Pro](https://github.com/Yolol100/Ultracache-pro) | WordPress performance tooling with explicit WooCommerce safety boundaries | [PHP compatibility](https://github.com/Yolol100/Ultracache-pro#verification) |
+| [ACF Page Text Manager](https://github.com/Yolol100/ACF-Text-Manager) | Edit content and SEO fields in one place; review bulk CSV/XLSX changes before applying them. | [Admin workflow and validation](https://github.com/Yolol100/ACF-Text-Manager#verification) |
+| [SooCool for WooCommerce](https://github.com/Yolol100/soocool-for-woocommerce) | Send eligible orders to a delivery provider and safely handle status updates, retries and labels. | [Webhook and runtime tests](https://github.com/Yolol100/soocool-for-woocommerce#technical-review) |
+| [Content Sync Manager](https://github.com/Yolol100/Content-Sync-Manager) | Move or update structured WordPress content and media with validation and recovery paths. | [Tests and release checks](https://github.com/Yolol100/Content-Sync-Manager#quick-technical-review) |
+| [WordPress Block Theme Starter](https://github.com/Yolol100/theme) | Create native Gutenberg templates without making a page builder a core dependency. | [Architecture and QA](https://github.com/Yolol100/theme#what-to-review) |
+| [Designchecker](https://github.com/Yolol100/Designchecker) | Make browser, visual, accessibility and performance QA reproducible before a site release. | [TypeScript, Playwright and tests](https://github.com/Yolol100/Designchecker#quick-code-review-route) |
+| [UltraCache Pro](https://github.com/Yolol100/Ultracache-pro) | Improve WordPress caching and frontend delivery without blindly caching WooCommerce checkout and account flows. | [Compatibility and runtime checks](https://github.com/Yolol100/Ultracache-pro#verification) |
 
 ## More projects by area
 
-For more specialized engineering work, see [SEO Checker](https://github.com/Yolol100/seochecker) (technical SEO), [WordPress Connector](https://github.com/Yolol100/wordpressconnector) (controlled WordPress automation), and [Orchestrator](https://github.com/Yolol100/Orchestrator) (auditable multi-repository workflows).
+More specialist work: [Technical SEO checks](https://github.com/Yolol100/seochecker) · [WordPress Connector](https://github.com/Yolol100/wordpressconnector) · [Additional public repositories](https://github.com/Yolol100?tab=repositories)
 
 ## How I work
 
-- **Start with users:** structure, usability, accessibility and sensible content editing.
-- **Build for maintenance:** clear boundaries, documented choices and controlled data changes.
-- **Verify what matters:** automated checks where appropriate, human review for visual and production decisions, and rollback planning for risky updates.
+**Understand the user and business problem → design the simplest maintainable solution → implement → test → hand over.**
 
-Automated tests are evidence for the scenarios they run. They do **not** by themselves prove every live-site, accessibility, payment or performance outcome.
+My focus is both visual and technical: accessible layouts, reliable integrations, sensible content management and clear communication. Automated checks support release decisions but do not replace real-device, client or production verification.
 
 ## Background & contact
 
-My background spans web design, front-end work, WordPress development and collaboration with clients and stakeholders. I currently work at **Webactueel**.
+I currently work at **Webactueel** and am interested in fully remote WordPress/WooCommerce roles and selected project collaborations.
 
-If you're recruiting, planning a website or looking for technical help: **[review the selected projects](#selected-engineering-work)**, [connect on LinkedIn](https://www.linkedin.com/in/andrew-baeten-305a1478/) or **[email me](mailto:info@andrewbaeten.nl)**.
+**[See my portfolio](https://andrewbaeten.nl/)** · **[Get in touch](mailto:info@andrewbaeten.nl)** · [LinkedIn](https://www.linkedin.com/in/andrew-baeten-305a1478/)
