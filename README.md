@@ -60,6 +60,8 @@ More specialist work: [Technical SEO checks](https://github.com/Yolol100/seochec
 
 My focus is both visual and technical: accessible layouts, reliable integrations, sensible content management and clear communication. Automated checks support release decisions but do not replace real-device, client or production verification.
 
+**Recent source-level engineering evidence (November 2026):** [Elementor import and dependency QA](https://github.com/Yolol100/elementorjson/pull/86) · [SEO workflow version-pin regression tests](https://github.com/Yolol100/seochecker/pull/61) · [Playwright rollback-runner compatibility](https://github.com/Yolol100/Checklist/pull/43). These changes passed their repository checks; they are not live-client-site certifications.
+
 ## Background & contact
 
 I currently work at **Webactueel** and am interested in fully remote WordPress/WooCommerce roles and selected project collaborations.
